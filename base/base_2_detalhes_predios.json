@@ -1,0 +1,1002 @@
+[
+    {
+        "predio_id":"PREDIO_0001",
+        "tamanho_m2":628,
+        "preco_estimado":8197266.1799999997,
+        "quantidade_de_salas":21,
+        "ano_construcao":"2019",
+        "descricao":"Dolorum mollitia qui ea reiciendis neque. Quas eum tempora perspiciatis. Repellendus error doloribus velit aut.",
+        "responsavel":"João Guilherme da Cunha",
+        "telefone":"+55 41 9 4302 7888"
+    },
+    {
+        "predio_id":"PREDIO_0002",
+        "tamanho_m2":996,
+        "preco_estimado":10691743.4499999993,
+        "quantidade_de_salas":17,
+        "ano_construcao":"2020",
+        "descricao":"Expedita unde doloremque placeat rerum minus dolore. Ipsum ex inventore.\nLibero fugiat repellendus sapiente ipsa. Inventore molestias necessitatibus eaque et.",
+        "responsavel":"Diogo Lima",
+        "telefone":"+55 98 97445-8475"
+    },
+    {
+        "predio_id":"PREDIO_0003",
+        "tamanho_m2":1710,
+        "preco_estimado":8486796.7699999996,
+        "quantidade_de_salas":24,
+        "ano_construcao":"1999",
+        "descricao":"Non tempora molestias saepe. Repellat rerum illo vero nostrum.\nModi alias reprehenderit. Nemo magni vitae accusamus debitis esse in.",
+        "responsavel":"Erick Campos",
+        "telefone":"+55 12 9 0668-3909"
+    },
+    {
+        "predio_id":"PREDIO_0004",
+        "tamanho_m2":420,
+        "preco_estimado":4216850.9299999997,
+        "quantidade_de_salas":22,
+        "ano_construcao":"1982",
+        "descricao":"Nisi commodi non tenetur unde magni harum. Delectus recusandae autem eaque consequatur laudantium laboriosam.",
+        "responsavel":"Danilo Abreu",
+        "telefone":"+55 47 9 5937-8920"
+    },
+    {
+        "predio_id":"PREDIO_0005",
+        "tamanho_m2":1724,
+        "preco_estimado":17359528.2300000004,
+        "quantidade_de_salas":25,
+        "ano_construcao":"1991",
+        "descricao":"Repellendus saepe quae dignissimos ab ipsa architecto porro. Ab at accusantium assumenda suscipit dolore.",
+        "responsavel":"Dr. Josué Andrade",
+        "telefone":"+55 61 9 1073 0312"
+    },
+    {
+        "predio_id":"PREDIO_0006",
+        "tamanho_m2":1701,
+        "preco_estimado":12200801.3100000005,
+        "quantidade_de_salas":13,
+        "ano_construcao":"1978",
+        "descricao":"Architecto itaque eos. Numquam corrupti placeat quidem.\nMaxime voluptate reprehenderit dicta nihil alias quod voluptatum. In alias nihil porro officiis culpa dolores. Perferendis amet laboriosam.",
+        "responsavel":"José Monteiro",
+        "telefone":"+55 (074) 96528-2576"
+    },
+    {
+        "predio_id":"PREDIO_0007",
+        "tamanho_m2":714,
+        "preco_estimado":10782639.1400000006,
+        "quantidade_de_salas":6,
+        "ano_construcao":"2009",
+        "descricao":"Quam praesentium libero non rerum necessitatibus illo. Alias officiis provident libero. Nobis expedita eum doloribus vitae totam provident.",
+        "responsavel":"Kaique das Neves",
+        "telefone":"+55 29 94757-1859"
+    },
+    {
+        "predio_id":"PREDIO_0008",
+        "tamanho_m2":564,
+        "preco_estimado":6333195.3700000001,
+        "quantidade_de_salas":38,
+        "ano_construcao":"2018",
+        "descricao":"Id reiciendis libero tempore magnam nulla magnam. Provident impedit exercitationem tempora. Earum ipsum autem ad harum possimus.\nIpsum unde ipsum natus cum.",
+        "responsavel":"Clarice Fogaça",
+        "telefone":"+55 28 99947 5697"
+    },
+    {
+        "predio_id":"PREDIO_0009",
+        "tamanho_m2":690,
+        "preco_estimado":4833274.4800000004,
+        "quantidade_de_salas":24,
+        "ano_construcao":"2022",
+        "descricao":"Ut libero maiores minus. Sunt quidem iusto non impedit consequatur. Dolores dolorum eligendi totam perferendis.",
+        "responsavel":"Lorenzo Macedo",
+        "telefone":"+55 39 9 3683 3041"
+    },
+    {
+        "predio_id":"PREDIO_0010",
+        "tamanho_m2":715,
+        "preco_estimado":7661515.3600000003,
+        "quantidade_de_salas":14,
+        "ano_construcao":"2001",
+        "descricao":"Sint adipisci tempora at porro magnam. Maxime earum occaecati soluta laudantium in voluptatum.",
+        "responsavel":"Théo Brito",
+        "telefone":"+55 (003) 93466-0758"
+    },
+    {
+        "predio_id":"PREDIO_0011",
+        "tamanho_m2":389,
+        "preco_estimado":5777093.6799999997,
+        "quantidade_de_salas":36,
+        "ano_construcao":"2006",
+        "descricao":"Soluta quos aut harum est reprehenderit id.\nIpsum iure est. Vitae vero doloribus magnam id ex suscipit deleniti.",
+        "responsavel":"Maria Luiza Melo",
+        "telefone":"+55 69 95939-4267"
+    },
+    {
+        "predio_id":"PREDIO_0012",
+        "tamanho_m2":207,
+        "preco_estimado":1958850.47,
+        "quantidade_de_salas":22,
+        "ano_construcao":"1987",
+        "descricao":"Unde architecto pariatur ea molestias unde sunt. Quia inventore explicabo eius. Quidem illum ab quae tempore.\nOfficia at dolore facere.",
+        "responsavel":"Dra. Bárbara da Cruz",
+        "telefone":"+55 63 9 3054-5183"
+    },
+    {
+        "predio_id":"PREDIO_0013",
+        "tamanho_m2":790,
+        "preco_estimado":7771758.9400000004,
+        "quantidade_de_salas":39,
+        "ano_construcao":"1979",
+        "descricao":"Exercitationem velit atque eveniet laborum eos. Ex maiores necessitatibus doloremque voluptate.\nQuisquam enim est itaque.",
+        "responsavel":"Pedro Lucas Pires",
+        "telefone":"+55 07 95918-1403"
+    },
+    {
+        "predio_id":"PREDIO_0014",
+        "tamanho_m2":867,
+        "preco_estimado":4126612.5,
+        "quantidade_de_salas":19,
+        "ano_construcao":"2023",
+        "descricao":"Sit facilis pariatur sapiente officia veniam. Pariatur eos neque consequuntur ex eius.\nLaboriosam aperiam commodi minima. Voluptatibus consequatur alias assumenda occaecati odit.",
+        "responsavel":"Paulo Casa Grande",
+        "telefone":"+55 83 94506-3326"
+    },
+    {
+        "predio_id":"PREDIO_0015",
+        "tamanho_m2":1939,
+        "preco_estimado":6811441.8499999996,
+        "quantidade_de_salas":12,
+        "ano_construcao":"2020",
+        "descricao":"Quis sit accusantium ad consequuntur distinctio aspernatur. Dicta incidunt nam quaerat cum numquam totam. Facilis itaque dolores.",
+        "responsavel":"Matheus Fonseca",
+        "telefone":"+55 (033) 98534-8638"
+    },
+    {
+        "predio_id":"PREDIO_0016",
+        "tamanho_m2":1594,
+        "preco_estimado":16761566.2200000007,
+        "quantidade_de_salas":6,
+        "ano_construcao":"2011",
+        "descricao":"Veniam fuga unde necessitatibus iure voluptatem. Architecto nostrum laudantium porro porro mollitia alias ipsam. Commodi dolorem maiores at laudantium.",
+        "responsavel":"Ravi Fernandes",
+        "telefone":"+55 81 9 4615 0581"
+    },
+    {
+        "predio_id":"PREDIO_0017",
+        "tamanho_m2":192,
+        "preco_estimado":2375251.0099999998,
+        "quantidade_de_salas":16,
+        "ano_construcao":"2012",
+        "descricao":"Nemo consequatur repellat quas laudantium tempore. Necessitatibus voluptas facere. Accusamus exercitationem blanditiis et sapiente quos.",
+        "responsavel":"Mariah da Paz",
+        "telefone":"+55 (33) 9 4142-7890"
+    },
+    {
+        "predio_id":"PREDIO_0018",
+        "tamanho_m2":329,
+        "preco_estimado":2724164.2200000002,
+        "quantidade_de_salas":29,
+        "ano_construcao":"2021",
+        "descricao":"Consectetur cum fugit placeat nemo repudiandae animi. Dignissimos omnis odio. Possimus tenetur temporibus est corporis excepturi quod suscipit.",
+        "responsavel":"Lucca Mendonça",
+        "telefone":"+55 (15) 99091-4592"
+    },
+    {
+        "predio_id":"PREDIO_0019",
+        "tamanho_m2":343,
+        "preco_estimado":4325356.4100000001,
+        "quantidade_de_salas":18,
+        "ano_construcao":"1983",
+        "descricao":"Optio officia quos deleniti labore ad illo reprehenderit. Pariatur laboriosam officiis qui eum porro.",
+        "responsavel":"Ravi Lucca Cavalcanti",
+        "telefone":"+55 (008) 94538 6490"
+    },
+    {
+        "predio_id":"PREDIO_0020",
+        "tamanho_m2":633,
+        "preco_estimado":5497532.1500000004,
+        "quantidade_de_salas":42,
+        "ano_construcao":"2012",
+        "descricao":"Ex ullam delectus pariatur repudiandae. Quas in recusandae nemo. Blanditiis ducimus officia doloribus magnam quibusdam.",
+        "responsavel":"Joana Sousa",
+        "telefone":"+55 36 93951-7652"
+    },
+    {
+        "predio_id":"PREDIO_0021",
+        "tamanho_m2":1968,
+        "preco_estimado":24402243.1400000006,
+        "quantidade_de_salas":7,
+        "ano_construcao":"2005",
+        "descricao":"Quisquam nemo ratione quaerat. Sequi at dolore odio quasi.\nVero ipsam aliquam alias debitis saepe occaecati iure. Beatae optio corporis quas doloremque accusantium.",
+        "responsavel":"Dr. Caio Ramos",
+        "telefone":"+55 87 9 5731 4972"
+    },
+    {
+        "predio_id":"PREDIO_0022",
+        "tamanho_m2":1649,
+        "preco_estimado":10347037.3000000007,
+        "quantidade_de_salas":42,
+        "ano_construcao":"2009",
+        "descricao":"Commodi illo aliquam dolores voluptates corporis quas. Animi maiores reprehenderit consequuntur incidunt libero possimus. Laboriosam nemo necessitatibus reiciendis ipsam harum quam.",
+        "responsavel":"Pietro Correia",
+        "telefone":"+55 17 95903 6135"
+    },
+    {
+        "predio_id":"PREDIO_0023",
+        "tamanho_m2":303,
+        "preco_estimado":1679458.9399999999,
+        "quantidade_de_salas":45,
+        "ano_construcao":"1999",
+        "descricao":"Veniam labore deleniti beatae unde nisi. Reiciendis vero fugiat repellat consequatur dolorum. Voluptate quos non natus doloremque nam.\nOfficiis dicta velit voluptatem possimus.",
+        "responsavel":"Leonardo Pimenta",
+        "telefone":"+55 (39) 9 4104-0775"
+    },
+    {
+        "predio_id":"PREDIO_0024",
+        "tamanho_m2":1454,
+        "preco_estimado":12422205.5,
+        "quantidade_de_salas":28,
+        "ano_construcao":"2013",
+        "descricao":"Qui hic laboriosam quos. Minus nisi fugiat quos ratione. Dolorum impedit accusantium dolorem provident cum adipisci odit.",
+        "responsavel":"Olívia Martins",
+        "telefone":"+55 (69) 9 8643-4206"
+    },
+    {
+        "predio_id":"PREDIO_0025",
+        "tamanho_m2":1071,
+        "preco_estimado":5179748.1900000004,
+        "quantidade_de_salas":49,
+        "ano_construcao":"1971",
+        "descricao":"Expedita suscipit nisi eaque consectetur.\nQuo fugit voluptates neque nam. Error iste quas ea.\nReprehenderit molestias reprehenderit. Ipsa nobis dolores adipisci.",
+        "responsavel":"Theo Dias",
+        "telefone":"+55 (03) 9 0604 6032"
+    },
+    {
+        "predio_id":"PREDIO_0026",
+        "tamanho_m2":1389,
+        "preco_estimado":18997342.8200000003,
+        "quantidade_de_salas":29,
+        "ano_construcao":"1977",
+        "descricao":"Natus inventore voluptates numquam dolor. Est iure veniam velit explicabo iste molestias. Perspiciatis ea reprehenderit enim.",
+        "responsavel":"Sofia Andrade",
+        "telefone":"+55 (53) 9 1254 2206"
+    },
+    {
+        "predio_id":"PREDIO_0027",
+        "tamanho_m2":1020,
+        "preco_estimado":9576222.2100000009,
+        "quantidade_de_salas":26,
+        "ano_construcao":"2018",
+        "descricao":"Commodi at quibusdam mollitia maiores natus. Ipsa laborum odio fuga fuga. Numquam tenetur molestiae facere.\nSequi tenetur odit sit explicabo aperiam sapiente. Sed perspiciatis beatae incidunt.",
+        "responsavel":"Ísis Pastor",
+        "telefone":"+55 (93) 92599 8323"
+    },
+    {
+        "predio_id":"PREDIO_0028",
+        "tamanho_m2":1106,
+        "preco_estimado":4258796.9000000004,
+        "quantidade_de_salas":26,
+        "ano_construcao":"1975",
+        "descricao":"Nisi veritatis fugiat sapiente eos iste. Nisi necessitatibus iste modi deserunt itaque.\nMollitia unde sunt provident. Sapiente dolores iure voluptates quam provident sit doloribus.",
+        "responsavel":"Sara Sá",
+        "telefone":"+55 14 9 2008 6421"
+    },
+    {
+        "predio_id":"PREDIO_0029",
+        "tamanho_m2":895,
+        "preco_estimado":5113985.9900000002,
+        "quantidade_de_salas":31,
+        "ano_construcao":"1999",
+        "descricao":"Explicabo laboriosam debitis quidem eius atque incidunt. Provident inventore repellat est.",
+        "responsavel":"Bryan Freitas",
+        "telefone":"+55 (45) 9 6700-0431"
+    },
+    {
+        "predio_id":"PREDIO_0030",
+        "tamanho_m2":1764,
+        "preco_estimado":7049737.7400000002,
+        "quantidade_de_salas":29,
+        "ano_construcao":"1995",
+        "descricao":"Molestias ea earum officiis occaecati et. Voluptates recusandae quos sapiente repudiandae. Vitae voluptatem officiis eaque autem voluptate aut.",
+        "responsavel":"Maria Isis Sampaio",
+        "telefone":"+55 03 9 1557-5496"
+    },
+    {
+        "predio_id":"PREDIO_0031",
+        "tamanho_m2":1474,
+        "preco_estimado":11897194.4499999993,
+        "quantidade_de_salas":42,
+        "ano_construcao":"2011",
+        "descricao":"Tempora delectus ad ducimus rem quae asperiores facere. Eum ad repellat vero.\nVelit architecto ipsam reiciendis consequuntur.",
+        "responsavel":"Valentim Mendonça",
+        "telefone":"+55 (17) 9 4230-0363"
+    },
+    {
+        "predio_id":"PREDIO_0032",
+        "tamanho_m2":326,
+        "preco_estimado":2370691.1000000001,
+        "quantidade_de_salas":32,
+        "ano_construcao":"1978",
+        "descricao":"Veritatis modi minima vero. Impedit tempora doloribus culpa sed dolores nostrum. Aspernatur corrupti consequatur delectus. Dignissimos deleniti doloremque.",
+        "responsavel":"Raquel Aparecida",
+        "telefone":"+55 (21) 99016 1498"
+    },
+    {
+        "predio_id":"PREDIO_0033",
+        "tamanho_m2":950,
+        "preco_estimado":12120255.1099999994,
+        "quantidade_de_salas":24,
+        "ano_construcao":"1981",
+        "descricao":"Quibusdam quasi maxime corrupti commodi sequi ducimus quam. Quae dolor deserunt amet. Voluptatem cupiditate excepturi iste perferendis quae.",
+        "responsavel":"Francisco Rodrigues",
+        "telefone":"+55 (080) 93516-0216"
+    },
+    {
+        "predio_id":"PREDIO_0034",
+        "tamanho_m2":366,
+        "preco_estimado":1251665.3300000001,
+        "quantidade_de_salas":43,
+        "ano_construcao":"1997",
+        "descricao":"Expedita sed numquam ratione eveniet odio. Asperiores veniam culpa inventore blanditiis labore.\nQuisquam culpa deleniti quas porro ipsum fugiat. Dolorem beatae voluptatem quos sapiente.",
+        "responsavel":"Dra. Maria Fernanda da Paz",
+        "telefone":"+55 94 9 6831-8035"
+    },
+    {
+        "predio_id":"PREDIO_0035",
+        "tamanho_m2":1350,
+        "preco_estimado":21083771.1700000018,
+        "quantidade_de_salas":14,
+        "ano_construcao":"2012",
+        "descricao":"A illo incidunt ex.\nAlias saepe velit quae.\nCommodi eius pariatur facilis provident nihil vitae vero. Veritatis possimus tenetur tempora tenetur autem ipsa.",
+        "responsavel":"Sra. Gabriela Peixoto",
+        "telefone":"+55 (048) 91365-2065"
+    },
+    {
+        "predio_id":"PREDIO_0036",
+        "tamanho_m2":1707,
+        "preco_estimado":7773063.3300000001,
+        "quantidade_de_salas":11,
+        "ano_construcao":"1987",
+        "descricao":"Nihil vero nam omnis. Facere officia numquam distinctio occaecati architecto dicta. Temporibus quia maiores exercitationem ea recusandae quo.",
+        "responsavel":"Rebeca Gonçalves",
+        "telefone":"+55 92 97211 4284"
+    },
+    {
+        "predio_id":"PREDIO_0037",
+        "tamanho_m2":958,
+        "preco_estimado":5051502.3799999999,
+        "quantidade_de_salas":30,
+        "ano_construcao":"1973",
+        "descricao":"Repellat at a placeat sunt. Quos facere odio dolorem architecto molestiae. Molestiae sequi eos reiciendis eum tempora maiores.",
+        "responsavel":"Pedro Guerra",
+        "telefone":"+55 (008) 98389 6945"
+    },
+    {
+        "predio_id":"PREDIO_0038",
+        "tamanho_m2":560,
+        "preco_estimado":8024592.4400000004,
+        "quantidade_de_salas":8,
+        "ano_construcao":"1991",
+        "descricao":"Beatae adipisci quo unde ab aspernatur expedita. Hic iure commodi quisquam nulla cupiditate ratione.\nQuas culpa maiores commodi dolor perferendis. Laboriosam unde ipsam sunt.",
+        "responsavel":"Guilherme Alves",
+        "telefone":"+55 (11) 96935 3208"
+    },
+    {
+        "predio_id":"PREDIO_0039",
+        "tamanho_m2":1215,
+        "preco_estimado":9363558.8800000008,
+        "quantidade_de_salas":6,
+        "ano_construcao":"2009",
+        "descricao":"Assumenda sunt vel sint recusandae. Consequatur optio saepe repellat necessitatibus. Mollitia reiciendis harum sunt harum.",
+        "responsavel":"Ana Julia Cassiano",
+        "telefone":"+55 (76) 98777-5342"
+    },
+    {
+        "predio_id":"PREDIO_0040",
+        "tamanho_m2":1566,
+        "preco_estimado":9501788.0999999996,
+        "quantidade_de_salas":12,
+        "ano_construcao":"1997",
+        "descricao":"Consequuntur hic laborum quisquam repellat facere. Qui eligendi quis asperiores molestias.\nMagnam possimus aspernatur et perferendis itaque quas quas. Dolores id ab odit similique odio.",
+        "responsavel":"Sabrina Garcia",
+        "telefone":"+55 85 9 9331 8195"
+    },
+    {
+        "predio_id":"PREDIO_0041",
+        "tamanho_m2":1177,
+        "preco_estimado":3259676.52,
+        "quantidade_de_salas":15,
+        "ano_construcao":"2006",
+        "descricao":"Eum ea labore aliquam placeat unde quo. Vel velit totam molestias saepe atque corporis.\nModi ipsa iure labore. Saepe illum sunt placeat. Minus placeat dolor officiis blanditiis doloribus.",
+        "responsavel":"Lucas Gabriel Aragão",
+        "telefone":"+55 09 9 4862 3552"
+    },
+    {
+        "predio_id":"PREDIO_0042",
+        "tamanho_m2":173,
+        "preco_estimado":2116371.04,
+        "quantidade_de_salas":48,
+        "ano_construcao":"2022",
+        "descricao":"Itaque suscipit nostrum illum expedita ut rerum quam. Eum similique illo. Ut explicabo vero.\nFacere nisi fuga hic officiis autem. Nostrum illo pariatur maxime odio impedit.",
+        "responsavel":"Dra. Isadora Guerra",
+        "telefone":"+55 70 92307 1387"
+    },
+    {
+        "predio_id":"PREDIO_0043",
+        "tamanho_m2":1762,
+        "preco_estimado":21725845.379999999,
+        "quantidade_de_salas":13,
+        "ano_construcao":"1974",
+        "descricao":"Ipsum dolorem nemo sequi qui delectus maxime incidunt. Molestias fugit sequi voluptates earum consectetur.",
+        "responsavel":"Dr. Otávio Rezende",
+        "telefone":"+55 (85) 9 3003-0967"
+    },
+    {
+        "predio_id":"PREDIO_0044",
+        "tamanho_m2":1597,
+        "preco_estimado":5441266.2599999998,
+        "quantidade_de_salas":33,
+        "ano_construcao":"1997",
+        "descricao":"Explicabo hic omnis quos animi. Deleniti impedit sed beatae nihil nesciunt eius. Repudiandae doloribus sunt molestiae sapiente.\nTempore officia repudiandae voluptates. Minus velit atque aspernatur.",
+        "responsavel":"Miguel Pastor",
+        "telefone":"+55 (03) 9 4993 1261"
+    },
+    {
+        "predio_id":"PREDIO_0045",
+        "tamanho_m2":1838,
+        "preco_estimado":10818400.3699999992,
+        "quantidade_de_salas":20,
+        "ano_construcao":"2011",
+        "descricao":"Voluptate asperiores aspernatur tenetur ratione quod. Optio cupiditate repellendus distinctio nobis dolore cumque. Eius sapiente vero recusandae nemo.",
+        "responsavel":"Lunna Nunes",
+        "telefone":"+55 (73) 93788 1692"
+    },
+    {
+        "predio_id":"PREDIO_0046",
+        "tamanho_m2":1655,
+        "preco_estimado":8956833.1199999992,
+        "quantidade_de_salas":23,
+        "ano_construcao":"1975",
+        "descricao":"Eum soluta et laborum minima facere. Dignissimos harum dicta labore doloribus natus aperiam totam. Delectus maxime sunt dolores quae.\nCommodi voluptatem unde iste mollitia.",
+        "responsavel":"Maria Alice Vasconcelos",
+        "telefone":"+55 (097) 97624 3808"
+    },
+    {
+        "predio_id":"PREDIO_0047",
+        "tamanho_m2":892,
+        "preco_estimado":4840348.6799999997,
+        "quantidade_de_salas":35,
+        "ano_construcao":"1970",
+        "descricao":"Labore enim aspernatur quidem. Nostrum vel accusantium corporis accusamus atque voluptatem mollitia.",
+        "responsavel":"Júlia Borges",
+        "telefone":"+55 90 9 8442-4211"
+    },
+    {
+        "predio_id":"PREDIO_0048",
+        "tamanho_m2":1614,
+        "preco_estimado":12820826.5399999991,
+        "quantidade_de_salas":12,
+        "ano_construcao":"2003",
+        "descricao":"Beatae provident provident exercitationem. Nemo temporibus nemo fuga officiis ea iusto.\nDelectus aperiam autem iusto odio non. Totam animi facilis veniam nisi in.",
+        "responsavel":"Helena Sousa",
+        "telefone":"+55 (027) 94146-0053"
+    },
+    {
+        "predio_id":"PREDIO_0049",
+        "tamanho_m2":1862,
+        "preco_estimado":20522629.9299999997,
+        "quantidade_de_salas":47,
+        "ano_construcao":"1979",
+        "descricao":"Id sunt dolorum nostrum labore dolores. Fuga voluptas voluptatibus iure eaque magni eum ullam.",
+        "responsavel":"Srta. Pietra Guerra",
+        "telefone":"+55 16 93664 8727"
+    },
+    {
+        "predio_id":"PREDIO_0050",
+        "tamanho_m2":778,
+        "preco_estimado":10219011.25,
+        "quantidade_de_salas":26,
+        "ano_construcao":"2010",
+        "descricao":"Libero inventore rerum inventore quae vitae officia provident. Modi pariatur quasi modi laborum harum est.\nRepellat in porro natus odio molestias. Iste assumenda incidunt quibusdam qui.",
+        "responsavel":"Rhavi Novaes",
+        "telefone":"+55 99 91251-4094"
+    },
+    {
+        "predio_id":"PREDIO_0051",
+        "tamanho_m2":1016,
+        "preco_estimado":15573279.7400000002,
+        "quantidade_de_salas":30,
+        "ano_construcao":"1978",
+        "descricao":"Quae totam error cum vel. Maxime inventore nulla explicabo consectetur.",
+        "responsavel":"Gael Henrique Ferreira",
+        "telefone":"+55 (002) 99721-1916"
+    },
+    {
+        "predio_id":"PREDIO_0052",
+        "tamanho_m2":1997,
+        "preco_estimado":26262869.2800000012,
+        "quantidade_de_salas":23,
+        "ano_construcao":"1971",
+        "descricao":"Impedit accusamus dolorem unde illum. Saepe repellat odio dolorem labore. Ut excepturi sunt ullam. Fugit eligendi commodi itaque pariatur omnis rerum culpa.",
+        "responsavel":"Henry Gabriel Barbosa",
+        "telefone":"+55 27 9 5960 6594"
+    },
+    {
+        "predio_id":"PREDIO_0053",
+        "tamanho_m2":1321,
+        "preco_estimado":17398565.4499999993,
+        "quantidade_de_salas":49,
+        "ano_construcao":"1989",
+        "descricao":"Nam eum distinctio quo eius dolor. Ipsa at placeat cum nesciunt nesciunt. Magni optio officia quidem rem blanditiis error.",
+        "responsavel":"Benjamim Mendes",
+        "telefone":"+55 20 95390-3841"
+    },
+    {
+        "predio_id":"PREDIO_0054",
+        "tamanho_m2":678,
+        "preco_estimado":5864498.3799999999,
+        "quantidade_de_salas":41,
+        "ano_construcao":"2006",
+        "descricao":"Quas laborum molestias ratione fugiat.\nFugit eos dolorum saepe fuga. Voluptatum voluptates eaque numquam eum. Enim blanditiis nulla ipsam dolorem aut doloribus.",
+        "responsavel":"Beatriz Leão",
+        "telefone":"+55 (31) 99214 6482"
+    },
+    {
+        "predio_id":"PREDIO_0055",
+        "tamanho_m2":1775,
+        "preco_estimado":18788990.7699999996,
+        "quantidade_de_salas":9,
+        "ano_construcao":"1973",
+        "descricao":"Enim tenetur eius cupiditate. Inventore laborum voluptate.\nVoluptas ad placeat nihil error.\nQuidem inventore iure earum sit. Occaecati perspiciatis omnis corrupti.",
+        "responsavel":"Pietra Barbosa",
+        "telefone":"+55 35 9 9915-9845"
+    },
+    {
+        "predio_id":"PREDIO_0056",
+        "tamanho_m2":707,
+        "preco_estimado":2374803.8999999999,
+        "quantidade_de_salas":20,
+        "ano_construcao":"2025",
+        "descricao":"Perferendis atque molestias consectetur. Rerum sint ad dolores error.",
+        "responsavel":"Maria Julia Vieira",
+        "telefone":"+55 (33) 9 3615 5268"
+    },
+    {
+        "predio_id":"PREDIO_0057",
+        "tamanho_m2":860,
+        "preco_estimado":8822258.8900000006,
+        "quantidade_de_salas":35,
+        "ano_construcao":"1978",
+        "descricao":"Qui incidunt nisi. Excepturi dignissimos assumenda totam corrupti eum placeat unde. Asperiores veniam ad temporibus libero.",
+        "responsavel":"Brayan Leão",
+        "telefone":"+55 (098) 92747-9220"
+    },
+    {
+        "predio_id":"PREDIO_0058",
+        "tamanho_m2":1165,
+        "preco_estimado":3487317.0499999998,
+        "quantidade_de_salas":27,
+        "ano_construcao":"2003",
+        "descricao":"Et illum harum numquam incidunt illo sint. Atque molestiae totam. Aspernatur consequatur ipsum dolorum veniam. Vel animi quam deserunt ea hic facilis facilis.",
+        "responsavel":"Marcos Vinicius Porto",
+        "telefone":"+55 30 96181 9231"
+    },
+    {
+        "predio_id":"PREDIO_0059",
+        "tamanho_m2":275,
+        "preco_estimado":3323767.0299999998,
+        "quantidade_de_salas":44,
+        "ano_construcao":"1999",
+        "descricao":"Quasi facere nisi sunt. Perferendis sit corrupti natus ut numquam esse. Culpa dolores quae.",
+        "responsavel":"Maria Luiza Lopes",
+        "telefone":"+55 (09) 9 5254-6472"
+    },
+    {
+        "predio_id":"PREDIO_0060",
+        "tamanho_m2":177,
+        "preco_estimado":1475694.75,
+        "quantidade_de_salas":17,
+        "ano_construcao":"1987",
+        "descricao":"Ullam amet repellat a ut recusandae. Facere velit quisquam. Voluptate sit perspiciatis cupiditate vero pariatur.",
+        "responsavel":"Lavínia Martins",
+        "telefone":"+55 (11) 9 6689 5368"
+    },
+    {
+        "predio_id":"PREDIO_0061",
+        "tamanho_m2":804,
+        "preco_estimado":3923499.4199999999,
+        "quantidade_de_salas":27,
+        "ano_construcao":"1996",
+        "descricao":"Culpa odio voluptatum. Est repudiandae repellat nostrum repellendus quaerat aliquid. Dicta error numquam aspernatur recusandae.",
+        "responsavel":"Isis Silva",
+        "telefone":"+55 (021) 97020-2662"
+    },
+    {
+        "predio_id":"PREDIO_0062",
+        "tamanho_m2":1241,
+        "preco_estimado":16945737.0899999999,
+        "quantidade_de_salas":15,
+        "ano_construcao":"1995",
+        "descricao":"Excepturi laboriosam natus. Ut consectetur deserunt quis error ipsa. Excepturi modi ea quae molestiae.",
+        "responsavel":"Cauê Sá",
+        "telefone":"+55 23 9 1252-6933"
+    },
+    {
+        "predio_id":"PREDIO_0063",
+        "tamanho_m2":843,
+        "preco_estimado":9804656.9299999997,
+        "quantidade_de_salas":7,
+        "ano_construcao":"2007",
+        "descricao":"Ipsam laboriosam accusantium tempore deserunt. Ea nisi repudiandae eligendi rem.\nId magnam perspiciatis saepe.",
+        "responsavel":"Dom Pimenta",
+        "telefone":"+55 54 9 7886-2385"
+    },
+    {
+        "predio_id":"PREDIO_0064",
+        "tamanho_m2":1999,
+        "preco_estimado":20762815.6000000015,
+        "quantidade_de_salas":43,
+        "ano_construcao":"2022",
+        "descricao":"Aliquam voluptatem recusandae modi omnis ex. Quisquam aspernatur quidem odio laborum earum.\nAspernatur quod natus excepturi optio dicta et.",
+        "responsavel":"Thiago Casa Grande",
+        "telefone":"+55 71 9 3861-9340"
+    },
+    {
+        "predio_id":"PREDIO_0065",
+        "tamanho_m2":1924,
+        "preco_estimado":8056746.1200000001,
+        "quantidade_de_salas":23,
+        "ano_construcao":"1992",
+        "descricao":"Facilis similique corporis ratione. Dolorem maiores numquam dolore. Ad voluptas vero dolores quis impedit quasi assumenda.",
+        "responsavel":"Dra. Rebeca Leão",
+        "telefone":"+55 (97) 9 5268 0048"
+    },
+    {
+        "predio_id":"PREDIO_0066",
+        "tamanho_m2":608,
+        "preco_estimado":2896786.3999999999,
+        "quantidade_de_salas":44,
+        "ano_construcao":"2006",
+        "descricao":"Nulla officia repellat. Ipsum beatae nam eligendi mollitia dolor pariatur. Minima quasi natus sequi dolorem molestias.",
+        "responsavel":"Arthur Gabriel da Cruz",
+        "telefone":"+55 98 98150 0804"
+    },
+    {
+        "predio_id":"PREDIO_0067",
+        "tamanho_m2":172,
+        "preco_estimado":2251639.23,
+        "quantidade_de_salas":50,
+        "ano_construcao":"1974",
+        "descricao":"Adipisci quasi quos laboriosam nostrum. Accusantium eveniet quos molestiae harum alias itaque eveniet.\nIusto quam sit voluptatem magni impedit labore. Quisquam enim reiciendis.",
+        "responsavel":"Antonella Rocha",
+        "telefone":"+55 (42) 94396-8701"
+    },
+    {
+        "predio_id":"PREDIO_0068",
+        "tamanho_m2":717,
+        "preco_estimado":3341686.98,
+        "quantidade_de_salas":15,
+        "ano_construcao":"1991",
+        "descricao":"Molestiae incidunt corporis labore iste quos nemo mollitia. Reprehenderit dolorem officia aspernatur.",
+        "responsavel":"Sra. Esther da Conceição",
+        "telefone":"+55 21 91617 7183"
+    },
+    {
+        "predio_id":"PREDIO_0069",
+        "tamanho_m2":1571,
+        "preco_estimado":7189874.0,
+        "quantidade_de_salas":45,
+        "ano_construcao":"2008",
+        "descricao":"Praesentium cumque ad ipsa sit iusto. Iste reprehenderit nam. Necessitatibus repellendus nobis facere earum.",
+        "responsavel":"Sra. Manuella Correia",
+        "telefone":"+55 (97) 9 6370-2742"
+    },
+    {
+        "predio_id":"PREDIO_0070",
+        "tamanho_m2":1619,
+        "preco_estimado":6525109.4100000001,
+        "quantidade_de_salas":42,
+        "ano_construcao":"2002",
+        "descricao":"Laudantium vero non repellat quia ipsam. Aspernatur nobis quod maxime illum cumque. Architecto doloribus cum reprehenderit dolore ipsa.",
+        "responsavel":"Maria Alice Gomes",
+        "telefone":"+55 (59) 9 3043 3635"
+    },
+    {
+        "predio_id":"PREDIO_0071",
+        "tamanho_m2":1051,
+        "preco_estimado":11998927.1899999995,
+        "quantidade_de_salas":38,
+        "ano_construcao":"1980",
+        "descricao":"Molestias beatae quia ab deserunt explicabo eveniet. Ratione dolores earum dolorum. Quibusdam velit corrupti itaque deserunt quod dolorem. Laudantium voluptate exercitationem laboriosam.",
+        "responsavel":"Sr. Felipe da Paz",
+        "telefone":"+55 92 90647 7067"
+    },
+    {
+        "predio_id":"PREDIO_0072",
+        "tamanho_m2":634,
+        "preco_estimado":5520548.71,
+        "quantidade_de_salas":43,
+        "ano_construcao":"1973",
+        "descricao":"Harum autem nesciunt enim exercitationem aperiam dignissimos. Culpa facilis sequi assumenda similique molestiae. Illo eligendi eveniet ducimus.\nSunt animi ut a labore. Porro nulla distinctio.",
+        "responsavel":"Melina Marques",
+        "telefone":"+55 25 9 8574-5452"
+    },
+    {
+        "predio_id":"PREDIO_0073",
+        "tamanho_m2":1692,
+        "preco_estimado":24343311.870000001,
+        "quantidade_de_salas":14,
+        "ano_construcao":"1983",
+        "descricao":"Optio ex et sit error corporis id. Veritatis sint sunt error quod repellat quaerat.\nRatione maxime nostrum quasi id fugit pariatur exercitationem. Libero hic sed sit. Ab ab ea iusto.",
+        "responsavel":"Sr. Matheus Oliveira",
+        "telefone":"+55 (19) 9 4008 4527"
+    },
+    {
+        "predio_id":"PREDIO_0074",
+        "tamanho_m2":1249,
+        "preco_estimado":10981522.0600000005,
+        "quantidade_de_salas":12,
+        "ano_construcao":"1993",
+        "descricao":"Amet illo quo alias autem commodi perspiciatis.\nCorporis voluptates deserunt. Iure quibusdam nulla corrupti natus natus ab. Eligendi ea distinctio nostrum quasi corporis ipsam.",
+        "responsavel":"João Guilherme Costa",
+        "telefone":"+55 48 9 9748-3425"
+    },
+    {
+        "predio_id":"PREDIO_0075",
+        "tamanho_m2":558,
+        "preco_estimado":5867983.8399999999,
+        "quantidade_de_salas":24,
+        "ano_construcao":"2008",
+        "descricao":"Ad velit possimus asperiores sed.\nIncidunt repellat ex repellendus. Non temporibus error reprehenderit quia quibusdam.",
+        "responsavel":"Stella Rodrigues",
+        "telefone":"+55 67 9 0139 8389"
+    },
+    {
+        "predio_id":"PREDIO_0076",
+        "tamanho_m2":1205,
+        "preco_estimado":13546376.7599999998,
+        "quantidade_de_salas":49,
+        "ano_construcao":"1999",
+        "descricao":"Cumque quo distinctio earum tempora animi facilis. Maiores eligendi omnis laboriosam temporibus possimus. Maiores veniam repudiandae quasi officia et quos commodi.",
+        "responsavel":"Joana Dias",
+        "telefone":"+55 (43) 9 5811-5896"
+    },
+    {
+        "predio_id":"PREDIO_0077",
+        "tamanho_m2":790,
+        "preco_estimado":7629805.7199999997,
+        "quantidade_de_salas":20,
+        "ano_construcao":"2001",
+        "descricao":"Sapiente officia a atque occaecati distinctio. Soluta quae ex ex.",
+        "responsavel":"Arthur Gabriel Cunha",
+        "telefone":"+55 (17) 9 9475 9925"
+    },
+    {
+        "predio_id":"PREDIO_0078",
+        "tamanho_m2":1492,
+        "preco_estimado":5757032.4900000002,
+        "quantidade_de_salas":5,
+        "ano_construcao":"2019",
+        "descricao":"Doloremque quidem assumenda. Ad explicabo eius natus eveniet.\nMollitia hic totam placeat esse sapiente. Est dolorem delectus earum maxime sunt nemo fugit.",
+        "responsavel":"Lavínia Brito",
+        "telefone":"+55 (78) 93131-3282"
+    },
+    {
+        "predio_id":"PREDIO_0079",
+        "tamanho_m2":529,
+        "preco_estimado":5442018.1100000003,
+        "quantidade_de_salas":8,
+        "ano_construcao":"1986",
+        "descricao":"Et ullam alias quos est ipsa perferendis quam. Expedita dolorem maxime perspiciatis provident.",
+        "responsavel":"Sra. Ana da Rosa",
+        "telefone":"+55 (096) 91394-9951"
+    },
+    {
+        "predio_id":"PREDIO_0080",
+        "tamanho_m2":1065,
+        "preco_estimado":10931147.0700000003,
+        "quantidade_de_salas":18,
+        "ano_construcao":"2022",
+        "descricao":"Odit accusamus assumenda id. Ipsa rem tempore recusandae numquam.\nArchitecto voluptatum quisquam porro. Aspernatur cum eligendi illum dignissimos ex a deleniti.",
+        "responsavel":"Maria Alice da Conceição",
+        "telefone":"+55 (007) 94363-2176"
+    },
+    {
+        "predio_id":"PREDIO_0081",
+        "tamanho_m2":1927,
+        "preco_estimado":21709020.4600000009,
+        "quantidade_de_salas":15,
+        "ano_construcao":"1998",
+        "descricao":"Necessitatibus explicabo corporis possimus quaerat dolores ratione.\nAsperiores explicabo perferendis cumque ullam saepe accusamus. Quae consectetur maiores veniam voluptas.",
+        "responsavel":"João Guilherme Costela",
+        "telefone":"+55 (98) 97821-2023"
+    },
+    {
+        "predio_id":"PREDIO_0082",
+        "tamanho_m2":732,
+        "preco_estimado":8774937.5800000001,
+        "quantidade_de_salas":18,
+        "ano_construcao":"2015",
+        "descricao":"Excepturi inventore ipsum. Soluta laborum enim voluptatibus quae amet. Repellendus nulla rerum illo.",
+        "responsavel":"Emanuella Correia",
+        "telefone":"+55 (22) 9 4593-8973"
+    },
+    {
+        "predio_id":"PREDIO_0083",
+        "tamanho_m2":1694,
+        "preco_estimado":6993362.0099999998,
+        "quantidade_de_salas":9,
+        "ano_construcao":"1977",
+        "descricao":"Consequatur fugiat veritatis minima illo. Saepe cumque facilis consequatur et amet officiis.",
+        "responsavel":"Sr. Yan Leão",
+        "telefone":"+55 (64) 97464-0106"
+    },
+    {
+        "predio_id":"PREDIO_0084",
+        "tamanho_m2":1619,
+        "preco_estimado":20082304.3200000003,
+        "quantidade_de_salas":22,
+        "ano_construcao":"2022",
+        "descricao":"Atque non maxime ipsum. Facilis doloremque eos aut incidunt corporis sunt. Illo inventore maiores impedit. Est labore itaque veniam commodi tempore ab.",
+        "responsavel":"Arthur Costa",
+        "telefone":"+55 (082) 95703-3903"
+    },
+    {
+        "predio_id":"PREDIO_0085",
+        "tamanho_m2":1731,
+        "preco_estimado":17306446.3200000003,
+        "quantidade_de_salas":6,
+        "ano_construcao":"2008",
+        "descricao":"Accusamus quo quod optio. Sapiente eius asperiores molestiae doloribus expedita. A ea voluptate aut tempora dicta.\nEum amet fuga debitis. Exercitationem dolores tempore. Itaque sit debitis porro ut.",
+        "responsavel":"Ana Beatriz Nunes",
+        "telefone":"+55 (075) 97051-7255"
+    },
+    {
+        "predio_id":"PREDIO_0086",
+        "tamanho_m2":223,
+        "preco_estimado":2318095.3300000001,
+        "quantidade_de_salas":14,
+        "ano_construcao":"2018",
+        "descricao":"Odio impedit ipsam inventore. Necessitatibus reiciendis ratione animi. Inventore ipsam ad explicabo praesentium labore sapiente.\nOccaecati illum natus omnis deleniti nihil quos.",
+        "responsavel":"Erick da Mota",
+        "telefone":"+55 (50) 9 8580 0523"
+    },
+    {
+        "predio_id":"PREDIO_0087",
+        "tamanho_m2":215,
+        "preco_estimado":1751204.55,
+        "quantidade_de_salas":6,
+        "ano_construcao":"1999",
+        "descricao":"Minus eius sint error autem ab at. Quae laboriosam molestias eius tenetur.\nQuaerat quo commodi. Saepe fuga facere provident perspiciatis sed ipsam. Quo quam ducimus nesciunt itaque molestias.",
+        "responsavel":"Ana Júlia da Cruz",
+        "telefone":"+55 57 9 6280 9877"
+    },
+    {
+        "predio_id":"PREDIO_0088",
+        "tamanho_m2":491,
+        "preco_estimado":6423307.0099999998,
+        "quantidade_de_salas":10,
+        "ano_construcao":"1977",
+        "descricao":"Vel nulla dolorem dicta sint quia officia. Assumenda aperiam mollitia perferendis ratione eos.",
+        "responsavel":"Dra. Mirella Pereira",
+        "telefone":"+55 (005) 91590 5428"
+    },
+    {
+        "predio_id":"PREDIO_0089",
+        "tamanho_m2":704,
+        "preco_estimado":8360631.4199999999,
+        "quantidade_de_salas":23,
+        "ano_construcao":"1989",
+        "descricao":"Inventore optio cumque totam amet. Suscipit rem vero. Commodi praesentium repudiandae. Aperiam accusamus ullam eos mollitia voluptates adipisci.",
+        "responsavel":"Davi Lopes",
+        "telefone":"+55 (16) 92547 9622"
+    },
+    {
+        "predio_id":"PREDIO_0090",
+        "tamanho_m2":193,
+        "preco_estimado":2621533.98,
+        "quantidade_de_salas":10,
+        "ano_construcao":"2017",
+        "descricao":"Perspiciatis iste consectetur.\nSit totam nam laborum ratione corrupti. Magnam fugiat ea praesentium fugiat reprehenderit omnis vero.",
+        "responsavel":"Sra. Júlia Gomes",
+        "telefone":"+55 81 9 4478 5887"
+    },
+    {
+        "predio_id":"PREDIO_0091",
+        "tamanho_m2":404,
+        "preco_estimado":3553702.4900000002,
+        "quantidade_de_salas":11,
+        "ano_construcao":"1989",
+        "descricao":"Possimus labore quas vitae. Placeat ut blanditiis sit corrupti ducimus hic.\nIn molestias aliquid numquam. Architecto voluptas soluta laboriosam iure. Dolores ex magnam hic dolores.",
+        "responsavel":"Mariane Rocha",
+        "telefone":"+55 (77) 9 9475 2304"
+    },
+    {
+        "predio_id":"PREDIO_0092",
+        "tamanho_m2":153,
+        "preco_estimado":600279.1800000001,
+        "quantidade_de_salas":27,
+        "ano_construcao":"1994",
+        "descricao":"Esse laborum accusamus quisquam corporis ipsa occaecati. Unde ullam accusantium architecto.",
+        "responsavel":"Srta. Nina Borges",
+        "telefone":"+55 (33) 9 9365 0220"
+    },
+    {
+        "predio_id":"PREDIO_0093",
+        "tamanho_m2":216,
+        "preco_estimado":1538892.3899999999,
+        "quantidade_de_salas":8,
+        "ano_construcao":"2024",
+        "descricao":"Dolor ducimus et vero quibusdam labore. Itaque ad quaerat eveniet dicta quia repellendus dignissimos. Recusandae tempora ab minus dolor.",
+        "responsavel":"Amanda Silveira",
+        "telefone":"+55 (049) 94170-4381"
+    },
+    {
+        "predio_id":"PREDIO_0094",
+        "tamanho_m2":1098,
+        "preco_estimado":3385795.0,
+        "quantidade_de_salas":13,
+        "ano_construcao":"1983",
+        "descricao":"Maiores eveniet quod quod. Necessitatibus ratione ducimus. Cupiditate ipsum qui aliquam modi.",
+        "responsavel":"Francisco Cardoso",
+        "telefone":"+55 95 99000 8864"
+    },
+    {
+        "predio_id":"PREDIO_0095",
+        "tamanho_m2":1353,
+        "preco_estimado":14519191.1500000004,
+        "quantidade_de_salas":19,
+        "ano_construcao":"2017",
+        "descricao":"Eos nisi laborum modi aut eveniet quod. Dicta voluptatum exercitationem temporibus beatae vitae autem ad. Quisquam dolore nemo beatae soluta facilis.",
+        "responsavel":"Léo Araújo",
+        "telefone":"+55 (80) 9 1860-4125"
+    },
+    {
+        "predio_id":"PREDIO_0096",
+        "tamanho_m2":1949,
+        "preco_estimado":23466786.7600000016,
+        "quantidade_de_salas":25,
+        "ano_construcao":"1995",
+        "descricao":"Perspiciatis labore commodi necessitatibus. Fuga ratione nisi quis. Sed asperiores officia fugit aspernatur aliquid.",
+        "responsavel":"Gabriel Pires",
+        "telefone":"+55 (62) 9 5981 9785"
+    },
+    {
+        "predio_id":"PREDIO_0097",
+        "tamanho_m2":1105,
+        "preco_estimado":6186147.2599999998,
+        "quantidade_de_salas":40,
+        "ano_construcao":"1974",
+        "descricao":"Porro itaque similique dolore et corporis. Quos officia repellat exercitationem recusandae magni consectetur. Esse aliquid error ipsa expedita.",
+        "responsavel":"Lucas Gabriel das Neves",
+        "telefone":"+55 (066) 92669-3536"
+    },
+    {
+        "predio_id":"PREDIO_0098",
+        "tamanho_m2":810,
+        "preco_estimado":9176722.3100000005,
+        "quantidade_de_salas":6,
+        "ano_construcao":"1984",
+        "descricao":"Aperiam recusandae eius quia nemo neque consequatur. Quidem non odit laudantium iste magni. At at eius excepturi esse praesentium quam. Natus dolorum dolores at.",
+        "responsavel":"Juan Nogueira",
+        "telefone":"+55 (26) 93187-0617"
+    },
+    {
+        "predio_id":"PREDIO_0099",
+        "tamanho_m2":1399,
+        "preco_estimado":6609176.5700000003,
+        "quantidade_de_salas":47,
+        "ano_construcao":"1975",
+        "descricao":"Hic quibusdam quis eaque nam quos. Possimus quas veniam voluptate.",
+        "responsavel":"Benjamin Monteiro",
+        "telefone":"+55 53 9 8330 3186"
+    },
+    {
+        "predio_id":"PREDIO_0100",
+        "tamanho_m2":1234,
+        "preco_estimado":13445789.2699999996,
+        "quantidade_de_salas":36,
+        "ano_construcao":"1994",
+        "descricao":"Ipsam ipsam sit praesentium enim. Impedit ea at blanditiis possimus ad. Aliquid aperiam illum.",
+        "responsavel":"Gael Henrique Mendonça",
+        "telefone":"+55 (27) 9 2791-0787"
+    }
+]

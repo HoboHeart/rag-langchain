@@ -1,0 +1,101 @@
+﻿predio_id,endereco,bairro,cidade,estado,cep
+PREDIO_0001,"Praça de Câmara, 3",Santo André,Caucaia,CE,93260-708
+PREDIO_0002,"Esplanada Sophia Guerra, 333",Solar Do Barreiro,Itapipoca,CE,91041764
+PREDIO_0003,"Quadra de Rodrigues, 42",Vila Aeroporto,Pacatuba,CE,45283-473
+PREDIO_0004,"Conjunto Arthur Gabriel Moura, 97",Santa Monica,Quixadá,CE,16003-527
+PREDIO_0005,"Favela de Aragão, 5",Itatiaia,Fortaleza,CE,08357558
+PREDIO_0006,Trecho de Porto,Vista Do Sol,Pacatuba,CE,76067166
+PREDIO_0007,"Distrito de Sales, 475",Nova Esperança,Fortaleza,CE,32254-803
+PREDIO_0008,Viaduto de da Cruz,Vila Piratininga,Fortaleza,CE,17003435
+PREDIO_0009,"Feira de Cirino, 3",Caiçaras,Eusébio,CE,79279-384
+PREDIO_0010,"Ladeira João Lucas Vargas, 98",Vila Das Oliveiras,Quixeramobim,CE,78612838
+PREDIO_0011,"Sítio Isabela Sales, 518",Vila Suzana Segunda Seção,Quixadá,CE,70664-976
+PREDIO_0012,"Aeroporto Ribeiro, 65",Vila Copacabana,Juazeiro do Norte,CE,03687-526
+PREDIO_0013,Morro Viana,Nova Suíça,Juazeiro do Norte,CE,30978471
+PREDIO_0014,"Conjunto Cavalcante, 950",Vila Trinta E Um De Março,Tianguá,CE,21448-421
+PREDIO_0015,"Campo Camargo, 99",Buraco Quente,Caucaia,CE,09101-924
+PREDIO_0016,"Viaduto Vinícius Vieira, 91",Jardim Atlântico,Maranguape,CE,84326052
+PREDIO_0017,"Largo Yuri Pastor, 3",Delta,Fortaleza,CE,39223-950
+PREDIO_0018,"Trecho Manuella Siqueira, 92",São Damião,Maracanaú,CE,51446-048
+PREDIO_0019,"Aeroporto Lorena Camargo, 71",Santa Cruz,Juazeiro do Norte,CE,46053035
+PREDIO_0020,"Rua Erick Câmara, 3",Conjunto Taquaril,Juazeiro do Norte,CE,25129-898
+PREDIO_0021,"Campo Yasmin das Neves, 34",Saudade,Quixeramobim,CE,00868-841
+PREDIO_0022,"Rua da Conceição, 20",Vila Nova Dos Milionarios,Juazeiro do Norte,CE,29597907
+PREDIO_0023,"Sítio Pedro Duarte, 15",Itatiaia,Eusébio,CE,81321-683
+PREDIO_0024,"Rua de Marques, 23",Vila Nossa Senhora Do Rosário,Pacatuba,CE,42743-022
+PREDIO_0025,"Trevo Farias, 83",Manacas,Caucaia,CE,64657-252
+PREDIO_0026,"Campo Siqueira, 52",Mala E Cuia,Quixeramobim,CE,01983-691
+PREDIO_0027,"Feira de Castro, 36",Morro Dos Macacos,Maracanaú,CE,99478419
+PREDIO_0028,Praia de Nunes,Europa,Juazeiro do Norte,CE,08771944
+PREDIO_0029,Área de Moura,Outro,Crato,CE,50445841
+PREDIO_0030,"Aeroporto Rios, 96",Chácara Leonina,Sobral,CE,25600-341
+PREDIO_0031,"Jardim Catarina Porto, 63",Havaí,Sobral,CE,27001648
+PREDIO_0032,"Ladeira Nunes, 47",São João Batista,Caucaia,CE,08911063
+PREDIO_0033,"Loteamento Luan da Mata, 61",Pindorama,Maracanaú,CE,30687795
+PREDIO_0034,"Área Rezende, 88",Vila Madre Gertrudes 1ª Seção,Maracanaú,CE,18984153
+PREDIO_0035,"Condomínio de Martins, 394",Barreiro,Fortaleza,CE,28645-647
+PREDIO_0036,Passarela Cavalcanti,Dom Bosco,Eusébio,CE,90065-983
+PREDIO_0037,"Via de Moura, 7",Vila Mantiqueira,Caucaia,CE,65150224
+PREDIO_0038,"Quadra de Cavalcanti, 32",Mineirão,Maracanaú,CE,05312-228
+PREDIO_0039,"Ladeira Ferreira, 3",Ipiranga,Iguatu,CE,54789188
+PREDIO_0040,"Vale Benjamin Cassiano, 5",Trevo,Sobral,CE,20183061
+PREDIO_0041,"Lago de Cavalcanti, 77",Pousada Santo Antonio,Quixadá,CE,13282511
+PREDIO_0042,"Travessa Carvalho, 9",Tres Marias,Iguatu,CE,26597-587
+PREDIO_0043,"Estação Pedro Lucas Monteiro, 87",Vila Da Paz,Juazeiro do Norte,CE,00166201
+PREDIO_0044,"Lago de Pinto, 85",Jardim Felicidade,Eusébio,CE,79812-185
+PREDIO_0045,"Setor Mendes, 30",João Pinheiro,Eusébio,CE,04051468
+PREDIO_0046,"Trevo Vinicius das Neves, 68",Vila Olhos D'água,Maranguape,CE,35730-415
+PREDIO_0047,"Feira Gomes, 90",Aparecida,Quixadá,CE,02490414
+PREDIO_0048,"Área Duarte, 8",São Pedro,Quixadá,CE,47236-374
+PREDIO_0049,"Residencial Andrade, 86",Minaslandia,Juazeiro do Norte,CE,74501-183
+PREDIO_0050,"Favela Pimenta, 91",Anchieta,Fortaleza,CE,61278-855
+PREDIO_0051,Favela Eduarda Mendonça,Dom Joaquim,Caucaia,CE,66014-528
+PREDIO_0052,Esplanada de Lopes,Caiçara - Adelaide,Maracanaú,CE,58546-980
+PREDIO_0053,Estação da Cunha,Itaipu,Maracanaú,CE,71124-442
+PREDIO_0054,"Via Maria Liz Melo, 95",Pongelupe,Fortaleza,CE,24267487
+PREDIO_0055,Vale Marcos Vinicius Fonseca,Estrela Do Oriente,Maracanaú,CE,08723650
+PREDIO_0056,"Morro de Sampaio, 48",Piraja,Itapipoca,CE,34023741
+PREDIO_0057,"Aeroporto de Moraes, 8",Pantanal,Tianguá,CE,40023965
+PREDIO_0058,"Largo de Pires, 27",Vila Puc,Fortaleza,CE,25459241
+PREDIO_0059,Campo Cavalcanti,Vila Aeroporto Jaraguá,Tianguá,CE,52034-373
+PREDIO_0060,"Loteamento de Lopes, 76",Vila Ouro Minas,Tianguá,CE,87605010
+PREDIO_0061,Pátio Cavalcante,João Paulo Ii,Aquiraz,CE,06184915
+PREDIO_0062,"Chácara de Alves, 22",Paulo Vi,Juazeiro do Norte,CE,43806-002
+PREDIO_0063,"Área Silveira, 144",Vila Independencia 2ª Seção,Crato,CE,73312-316
+PREDIO_0064,"Travessa de Leão, 2",Penha,Sobral,CE,63213-293
+PREDIO_0065,"Esplanada Gabriela da Paz, 7",Aparecida,Juazeiro do Norte,CE,83355227
+PREDIO_0066,"Fazenda de Casa Grande, 84",Vila São Geraldo,Juazeiro do Norte,CE,03091-348
+PREDIO_0067,Distrito Clara Borges,Solimoes,Juazeiro do Norte,CE,62120957
+PREDIO_0068,"Feira Souza, 25",Madri,Eusébio,CE,84365-811
+PREDIO_0069,"Rodovia de Lopes, 44",Beira Linha,Caucaia,CE,04423-376
+PREDIO_0070,"Área Lopes, 23",Novo São Lucas,Itapipoca,CE,76984-029
+PREDIO_0071,Rua Bryan Almeida,Camponesa 2ª Seção,Quixeramobim,CE,43816807
+PREDIO_0072,"Lago João Vitor da Luz, 70",Vila Pilar,Tianguá,CE,86706415
+PREDIO_0073,"Parque Carolina Melo, 69",Nova Suíça,Pacatuba,CE,08095-292
+PREDIO_0074,"Núcleo de Rocha, 13",Vila Jardim Montanhes,Fortaleza,CE,27921667
+PREDIO_0075,"Colônia Santos, 96",Pantanal,Tianguá,CE,09061272
+PREDIO_0076,"Avenida Olívia Machado, 854",Brasil Industrial,Aquiraz,CE,64824224
+PREDIO_0077,"Parque de Sousa, 4",Ambrosina,Maranguape,CE,59998-497
+PREDIO_0078,"Vereda Pietro Fogaça, 80",Flamengo,Sobral,CE,56087-446
+PREDIO_0079,"Alameda de Mendes, 86",Santo Antônio,Maracanaú,CE,64274-483
+PREDIO_0080,Esplanada Souza,Vitoria,Maranguape,CE,76553-861
+PREDIO_0081,"Conjunto de Martins, 50",Madri,Crato,CE,00525-064
+PREDIO_0082,Via de Abreu,Biquinhas,Quixeramobim,CE,28639-620
+PREDIO_0083,"Vila de Rezende, 6",Vila Califórnia,Caucaia,CE,75097-359
+PREDIO_0084,"Viela Giovanna da Mota, 83",Vila Real 1ª Seção,Quixeramobim,CE,79065085
+PREDIO_0085,"Recanto Abreu, 92",São Marcos,Eusébio,CE,98287-734
+PREDIO_0086,Recanto de Correia,Santa Efigênia,Iguatu,CE,08882-141
+PREDIO_0087,"Loteamento Rodrigues, 9",Vila Antena,Itapipoca,CE,13144032
+PREDIO_0088,Núcleo de Rodrigues,Boa Esperança,Juazeiro do Norte,CE,33679-327
+PREDIO_0089,"Ladeira Campos, 70",Santana Do Cafezal,Fortaleza,CE,22576323
+PREDIO_0090,"Praia Miguel da Rocha, 23",Nazare,Quixadá,CE,76503206
+PREDIO_0091,"Distrito de Correia, 26",Marçola,Maracanaú,CE,59207855
+PREDIO_0092,Aeroporto Alves,São Benedito,Maracanaú,CE,65548-834
+PREDIO_0093,"Vereda de Pastor, 97",Pompéia,Tianguá,CE,17612-118
+PREDIO_0094,"Colônia da Conceição, 15",Engenho Nogueira,Sobral,CE,25761-404
+PREDIO_0095,"Trecho Borges, 23",Alta Tensão 2ª Seção,Eusébio,CE,56148-806
+PREDIO_0096,"Lago Rodrigo Oliveira, 73",Alto Das Antenas,Iguatu,CE,43277-177
+PREDIO_0097,"Núcleo de Fonseca, 50",Bonfim,Caucaia,CE,79996-384
+PREDIO_0098,Esplanada Gonçalves,Saudade,Caucaia,CE,33187-824
+PREDIO_0099,"Alameda Araújo, 2",Minas Caixa,Quixadá,CE,40661-531
+PREDIO_0100,"Loteamento Pedro Miguel Duarte, 21",Cardoso,Iguatu,CE,45219-348
