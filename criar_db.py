@@ -13,7 +13,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 # --- Definindo os caminhos ---
 PASTA_BASE = "base"
 CAMINHO_CSV = os.path.join(PASTA_BASE,"base_1_locacoes.csv")
-CAMINHO_JSON = os.path.join(PASTA_BASE,"base_2_detalhes_predios.json")
+CAMINHO_JSON = os.path.join(PASTA_BASE, "base_2_detalhes_predios_V2.json")
 
 def criar_db():
     #carregar documentos

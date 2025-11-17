@@ -1,0 +1,1002 @@
+[
+    {
+        "predio_id": "PREDIO_0001",
+        "tamanho_m2": 628,
+        "preco_estimado": 8197266.18,
+        "quantidade_de_salas": 21,
+        "ano_construcao": "2019",
+        "descricao": "Oferecemos ao mercado um imóvel comerciais de referência localizado na Praça de Câmara, coração da cidade de Santo André, em Caucaia-CE! Esse prédio moderno, construído em 2019, apresenta uma área útil de 628 m² e 21 salas, oferecendo inúmeras possibilidades para empresas que buscam um local estratégico e bem equipado. Com um preço competitivo de R$ 8,197,266.18, este imóvel é uma oportunidade única para investimentos ou expansão de negócios!",
+        "responsavel": "João Guilherme da Cunha",
+        "telefone": "+55 41 9 4302 7888"
+    },
+    {
+        "predio_id": "PREDIO_0002",
+        "tamanho_m2": 996,
+        "preco_estimado": 10691743.45,
+        "quantidade_de_salas": 17,
+        "ano_construcao": "2020",
+        "descricao": "\"Localizado na atraente Esplanada Sophia Guerra, em Solar Do Barreiro, Itapipoca - CE, oferecemos ao mercado um prédio comercial de ultima geração, construído em 2020. Com uma área total de 996 m² e 17 salas espaçosas, esse imóvel é o ideal para empresas que buscam ampliar suas operações ou estabelecerem uma nova presença no mercado local. Sua localização estratégica e facilidade de acesso garantem a atratividade para clientes e funcionários. Este prédio comercial é um investimento seguro e rentável para qualquer empresário.\"",
+        "responsavel": "Diogo Lima",
+        "telefone": "+55 98 97445-8475"
+    },
+    {
+        "predio_id": "PREDIO_0003",
+        "tamanho_m2": 1710,
+        "preco_estimado": 8486796.77,
+        "quantidade_de_salas": 24,
+        "ano_construcao": "1999",
+        "descricao": "\"Encontre o seu negócio aqui! Este prédio comercial, localizado na quadra de Rodrigues, 42, Vila Aeroporto, Pacatuba - CE, oferece uma oportunidade única para estabelecer sua empresa em um local estratégico e amplo. Com 24 salas e um total de 1.710 metros quadrados, este imóvel é ideal para empresas que buscam expandir suas operações ou inovar seus espaços de trabalho. O seu ano de construção em 1999 atesta a qualidade dos materiais e a estrutura sólida, garantindo uma longevidade e durabilidade para sua empresa.\"",
+        "responsavel": "Erick Campos",
+        "telefone": "+55 12 9 0668-3909"
+    },
+    {
+        "predio_id": "PREDIO_0004",
+        "tamanho_m2": 420,
+        "preco_estimado": 4216850.93,
+        "quantidade_de_salas": 22,
+        "ano_construcao": "1982",
+        "descricao": "\"Localizado no coração do Conjunto Arthur Gabriel Moura, em Santa Monica, Quixadá-CE, este prédio comercial de 420 metros quadrados é um investimento imperdível! Com 22 salas espaçadas e bem iluminadas, oferece uma oportunidade única para empresas que buscam expandir suas operações. Construído em 1982, este imóvel já tem uma história de sucesso e está pronto para abrigar novos negócios. Oferecemos você a chance de ser o próximo proprietário deste local estratégico, com um preço de venda competitivo de R$ 4,216,850,93.\"",
+        "responsavel": "Danilo Abreu",
+        "telefone": "+55 47 9 5937-8920"
+    },
+    {
+        "predio_id": "PREDIO_0005",
+        "tamanho_m2": 1724,
+        "preco_estimado": 17359528.23,
+        "quantidade_de_salas": 25,
+        "ano_construcao": "1991",
+        "descricao": "\"Oportunidade única para investir em um dos mais belos prédios comerciais da região! Localizado em uma zona estratégica e fácil de acesso, este imóvel de 1724 m² reúne 25 salas esclarecidas e iluminadas, oferecendo um ambiente ideal para empresas que buscam crescimento e expansão. Construído em 1991, o prédio apresenta estrutura sólida e bem conservada, garantindo segurança e estabilidade para seus ocupantes. Oferecido por R$ 17,359,528.23, é um investimento calculado que não deve ser perdido!\"",
+        "responsavel": "Dr. Josué Andrade",
+        "telefone": "+55 61 9 1073 0312"
+    },
+    {
+        "predio_id": "PREDIO_0006",
+        "tamanho_m2": 1701,
+        "preco_estimado": 12200801.31,
+        "quantidade_de_salas": 13,
+        "ano_construcao": "1978",
+        "descricao": "\"Em uma localização privilegiada no Trecho de Porto, Vista Do Sol, Pacatuba - CE, encontra-se este prédio comercial de 1701 m², ideal para empresas que buscam um espaço amplo e estratégico. Com 13 salas, o imóvel apresenta uma estrutura robusta e bem conservada, construído em 1978. Além disso, sua localização próxima ao centro da cidade oferece fácil acesso a principais ruas e rodovias, tornando-o um investimento seguro e atrativo para qualquer empresário.\"",
+        "responsavel": "José Monteiro",
+        "telefone": "+55 (074) 96528-2576"
+    },
+    {
+        "predio_id": "PREDIO_0007",
+        "tamanho_m2": 714,
+        "preco_estimado": 10782639.14,
+        "quantidade_de_salas": 6,
+        "ano_construcao": "2009",
+        "descricao": "Excelente oportunidade para investir em um imóvel comercial de alta qualidade e localização em Fortaleza! O prédio, construído em 2009, oferece 714 metros quadrados de área útil, distribuídos em 6 salas amplas e bem iluminadas. Localizado no distrito de Sales, uma das zonas mais valorizadas da cidade, este imóvel é perfeito para empresas que buscam um local estratégico para sua expansão. Com um preço de venda de R$ 10.782.639,14, este investimento é uma oportunidade única para aqueles que desejam estabelecer-se em um local com alta visibilidade e fluxo de pessoas.",
+        "responsavel": "Kaique das Neves",
+        "telefone": "+55 29 94757-1859"
+    },
+    {
+        "predio_id": "PREDIO_0008",
+        "tamanho_m2": 564,
+        "preco_estimado": 6333195.37,
+        "quantidade_de_salas": 38,
+        "ano_construcao": "2018",
+        "descricao": "\"Oferecemos ao mercado um prédio comercial de referência localizado no viaduto da Cruz, Vila Piratininga, Fortaleza! Construído em 2018, este edifício de 564 metros quadrados é uma oportunidade única para quem procura um espaço moderno e amplo. Com 38 salas bem iluminadas e climatizadas, este prédio atende às necessidades das principais empresas da região. Valorizado em R$ 6.333.195,37, este imóvel é uma escolha incomparável para aqueles que buscam investir em um negócio rentável e de futuro garantido.\"",
+        "responsavel": "Clarice Fogaça",
+        "telefone": "+55 28 99947 5697"
+    },
+    {
+        "predio_id": "PREDIO_0009",
+        "tamanho_m2": 690,
+        "preco_estimado": 4833274.48,
+        "quantidade_de_salas": 24,
+        "ano_construcao": "2022",
+        "descricao": "\"Localizado na afluente Feira de Cirino, em Caiçaras, Eusébio - CE, oferecemos um imóvel comercial de referência, construído em 2022 e com uma área total de 690 m². Este prédio é composto por 24 salas amplas e iluminadas, ideal para empresas que buscam um espaço moderno e prático para sua atividade. Com preço de venda de R$ 4,833,274.48, este imóvel é uma oportunidade única para quem procura uma excelente localização e infraestrutura para seu negócio.\"",
+        "responsavel": "Lorenzo Macedo",
+        "telefone": "+55 39 9 3683 3041"
+    },
+    {
+        "predio_id": "PREDIO_0010",
+        "tamanho_m2": 715,
+        "preco_estimado": 7661515.36,
+        "quantidade_de_salas": 14,
+        "ano_construcao": "2001",
+        "descricao": "\"Este prédio comercial é uma oportunidade única para investir em um local estratégico da região! Com sua localização privilegiada na Ladeira João Lucas Vargas, em Vila Das Oliveiras, Quixeramobim - CE, este imóvel de 715 metros quadrados oferece 14 salas amplas e luminosas, ideal para empresas que buscam um espaço moderno e funcional. Construído em 2001, este prédio apresenta uma estrutura sólida e bem conservada, garantindo segurança e estabilidade para seus ocupantes. Compre agora e aproveite a oportunidade de se estabelecer em um local valorizado!\"",
+        "responsavel": "Théo Brito",
+        "telefone": "+55 (003) 93466-0758"
+    },
+    {
+        "predio_id": "PREDIO_0011",
+        "tamanho_m2": 389,
+        "preco_estimado": 5777093.68,
+        "quantidade_de_salas": 36,
+        "ano_construcao": "2006",
+        "descricao": "\"Situated in the heart of Quixadá's commercial hub, this impressive prédio comercial boasts an unbeatable location and unparalleled versatility. With a total area of 389m² and 36 salas, it offers ample space to accommodate various businesses, from offices to retail stores. Constructed in 2006, this well-maintained property features modern architecture and a prime address on Sítio Isabela Sales, ensuring maximum visibility and accessibility for your customers. Don't miss this exceptional opportunity to own a piece of Quixadá's commercial crown!\"",
+        "responsavel": "Maria Luiza Melo",
+        "telefone": "+55 69 95939-4267"
+    },
+    {
+        "predio_id": "PREDIO_0012",
+        "tamanho_m2": 207,
+        "preco_estimado": 1958850.47,
+        "quantidade_de_salas": 22,
+        "ano_construcao": "1987",
+        "descricao": "\"Oportunidade única para investir em um imóvel comercial estratégico e rentável! Localizado no Aeroporto Ribeiro, em Vila Copacabana, Juazeiro do Norte - CE, este prédio de 207 m² oferece 22 salas perfeitamente distribuídas para atender às necessidades mais variadas. Com sua construção datando de 1987, ele apresenta estrutura sólida e resistente ao tempo, garantindo uma excelente relação qualidade-preço. Com um preço de venda de R$ 1,958,850.47, é uma oportunidade para quem busca investir em um negócio próspero e lucrativo!\"",
+        "responsavel": "Dra. Bárbara da Cruz",
+        "telefone": "+55 63 9 3054-5183"
+    },
+    {
+        "predio_id": "PREDIO_0013",
+        "tamanho_m2": 790,
+        "preco_estimado": 7771758.94,
+        "quantidade_de_salas": 39,
+        "ano_construcao": "1979",
+        "descricao": "\"Está à venda um imóvel comercial em Morro Viana, Nova Suíça, Juazeiro do Norte - CE, que oferece uma oportunidade única para quem procura expandir ou estabelecer sua marca na região. Com 790 metros quadrados de área construída e 39 salas espaçosas, este prédio é um verdadeiro \"coração\" da cidade, localizado em um ponto estratégico e facilmente acessível. Construído há mais de 40 anos, este imóvel tem uma história rica e está pronto para receber novos investimentos e ideias. Valorizado em R$ 7,771,758.94, é um negócio que não deve ser perdido!\"",
+        "responsavel": "Pedro Lucas Pires",
+        "telefone": "+55 07 95918-1403"
+    },
+    {
+        "predio_id": "PREDIO_0014",
+        "tamanho_m2": 867,
+        "preco_estimado": 4126612.5,
+        "quantidade_de_salas": 19,
+        "ano_construcao": "2023",
+        "descricao": "\"Encontre o seu negócio ideal em um dos mais recentes e modernos prédios comerciais do Conjunto Cavalcante! Com 867 metros quadrados de área construída, este imóvel oferece 19 salas espaçosas e luminosas, ideal para atender às necessidades de qualquer empresa. Construído há apenas um ano, em 2023, o prédio apresenta todos os recursos modernos e confortáveis, garantindo uma experiência de trabalho inovadora e eficiente. Com preço de venda competitivo de R$ 4.126.612,50, não perca a oportunidade de estabelecer sua empresa em um local estratégico e atrativo!\"",
+        "responsavel": "Paulo Casa Grande",
+        "telefone": "+55 83 94506-3326"
+    },
+    {
+        "predio_id": "PREDIO_0015",
+        "tamanho_m2": 1939,
+        "preco_estimado": 6811441.85,
+        "quantidade_de_salas": 12,
+        "ano_construcao": "2020",
+        "descricao": "\"Oportunidade única para quem busca estabelecer sua marca em um dos mais movimentados centros comerciais de Fortaleza! Este prédio comercial, construído em 2020, oferece um total de 12 salas espaçosas e luminosas, somando um impressionante espaço de 1939 m². Localizado no Buraco Quente, Caucaia, é uma das localizações mais procuradas da cidade. Com um preço de venda de R$ 6,811,441,85, este imóvel é o ideal para empresas que desejam impressionar seus clientes com um ambiente contemporâneo e moderno.\"",
+        "responsavel": "Matheus Fonseca",
+        "telefone": "+55 (033) 98534-8638"
+    },
+    {
+        "predio_id": "PREDIO_0016",
+        "tamanho_m2": 1594,
+        "preco_estimado": 16761566.22,
+        "quantidade_de_salas": 6,
+        "ano_construcao": "2011",
+        "descricao": "\"Oportunidade única para investir em um imóvel comercial de alto padrão localizado no coração do Jardim Atlântico, Maranguape! Este prédio de 1594 m², construído em 2011, apresenta seis salas espaciosa e iluminadas, ideal para empresas que buscam um espaço moderno e bem estruturado. Com sua localização privilegiada no Viaduto Vinícius Vieira, este imóvel oferece fácil acesso à principal avenida da região e ao centro comercial. Compre hoje e aproveite uma oportunidade de investimento que se tornará um sucesso!\"",
+        "responsavel": "Ravi Fernandes",
+        "telefone": "+55 81 9 4615 0581"
+    },
+    {
+        "predio_id": "PREDIO_0017",
+        "tamanho_m2": 192,
+        "preco_estimado": 2375251.01,
+        "quantidade_de_salas": 16,
+        "ano_construcao": "2012",
+        "descricao": "\"Este prédio comercial é um verdadeiro tesouro em meio à urbanização de Delta! Localizado no Largo Yuri Pastor, 3, o imóvel oferece uma área bruta de 192 m² e 16 salas luxuosamente projetadas. Com apenas 9 anos de idade, a construção em 2012 garante um padrão de qualidade elevado e uma manutenção fácil. Está à venda por R$ 2,375,251.01, um preço que reflete a qualidade e o valor do imóvel.\"",
+        "responsavel": "Mariah da Paz",
+        "telefone": "+55 (33) 9 4142-7890"
+    },
+    {
+        "predio_id": "PREDIO_0018",
+        "tamanho_m2": 329,
+        "preco_estimado": 2724164.22,
+        "quantidade_de_salas": 29,
+        "ano_construcao": "2021",
+        "descricao": "Descubra o seu negócio sonho em um prédio comercial moderno e estrategicamente localizado no trecho Manuella Siqueira, em São Damião, Maracanaú - CE. Com 329 metros quadrados de área construída e 29 salas espaçosas, este imóvel é o ideal para empresas que buscam um ambiente próspero e funcional. Construído em 2021, ele oferece todas as comodidades modernas e tecnologias para garantir a sua segurança e eficiência.",
+        "responsavel": "Lucca Mendonça",
+        "telefone": "+55 (15) 99091-4592"
+    },
+    {
+        "predio_id": "PREDIO_0019",
+        "tamanho_m2": 343,
+        "preco_estimado": 4325356.41,
+        "quantidade_de_salas": 18,
+        "ano_construcao": "1983",
+        "descricao": "\"Aqui está sua oportunidade de investir em um imóvel comercial de alto valor! Localizado no Aeroporto Lorena Camargo, 71, Santa Cruz, Juazeiro do Norte - CE, este prédio de 343 m² é composto por 18 salas e apresenta um charme único pela sua arquitectura histórica. Com uma construção datando de 1983, este imóvel está pronto para ser revitalizado e transformado em um centro de negócios ou loja com alto fluxo de pessoas. Compre essa oportunidade única por R$ 4,325,356.41 e faça seu sonho se tornar realidade!\"",
+        "responsavel": "Ravi Lucca Cavalcanti",
+        "telefone": "+55 (008) 94538 6490"
+    },
+    {
+        "predio_id": "PREDIO_0020",
+        "tamanho_m2": 633,
+        "preco_estimado": 5497532.15,
+        "quantidade_de_salas": 42,
+        "ano_construcao": "2012",
+        "descricao": "\"Oferecemos ao seu negócio um espaço ideal para prosperar! Localizado no coração do Conjunto Taquaril, em Juazeiro do Norte - CE, este prédio comercial de 633 m² é uma oportunidade única para quem busca qualidade e confort. Com 42 salas espaçosamente distribuídas, este imóvel de 2012 é a combinação perfeita entre estilo e funcionalidade, tornando-se um investimento seguro e lucrativo.\"",
+        "responsavel": "Joana Sousa",
+        "telefone": "+55 36 93951-7652"
+    },
+    {
+        "predio_id": "PREDIO_0021",
+        "tamanho_m2": 1968,
+        "preco_estimado": 24402243.14,
+        "quantidade_de_salas": 7,
+        "ano_construcao": "2005",
+        "descricao": "\"Maravilhoso prédio comercial localizado no coração de Quixeramobim, em Campo Yasmin das Neves, apresenta uma oportunidade única para investidores e empresários. Com um total de 1968 m² de área construída e 7 salas espaçosas, este imóvel é ideal para atender às necessidades de qualquer negócio. Construído em 2005, o prédio oferece infraestrutura moderna e segura, garantindo o sucesso dos seus futuros ocupantes. Valorizado em R$ 24,402,243.14, este imóvel é uma opção de investimento de alto valor para aqueles que buscam estabelecer ou expandir sua presença no mercado.\"",
+        "responsavel": "Dr. Caio Ramos",
+        "telefone": "+55 87 9 5731 4972"
+    },
+    {
+        "predio_id": "PREDIO_0022",
+        "tamanho_m2": 1649,
+        "preco_estimado": 10347037.3,
+        "quantidade_de_salas": 42,
+        "ano_construcao": "2009",
+        "descricao": "\"Imóvel com potencial infinito em uma das principais ruas da cidade! Este prédio comercial de 1649m², construído em 2009, oferece 42 salas esplêndidas para atender às necessidades mais variadas. Com sua localização estratégica na Rua da Conceição, em Vila Nova dos Milionários, Juazeiro do Norte - CE, este imóvel é a oportunidade perfeita para investidores e empresários que buscam um espaço ampleno e bem situado para expandir suas atividades. Seja você o próximo dono destes 10,3 milhões de reais!\"",
+        "responsavel": "Pietro Correia",
+        "telefone": "+55 17 95903 6135"
+    },
+    {
+        "predio_id": "PREDIO_0023",
+        "tamanho_m2": 303,
+        "preco_estimado": 1679458.94,
+        "quantidade_de_salas": 45,
+        "ano_construcao": "1999",
+        "descricao": "\"Achado na localização estratégica do Sítio Pedro Duarte, em Itatiaia, este prédio comercial oferece uma oportunidade única para investidores e empresários. Com um tamanho impressionante de 303 m² e 45 salas espaçosas, este imóvel é ideal para empresas que desejam expandir suas atividades ou estabelecer um novo hub. Construído em 1999 com materiais de alta qualidade, este prédio é uma escolha segura e duradoura para qualquer negócio. Com um preço competitivo de R$ 1,679,458.94, não perca a chance de tornar seu sonho de negócios realidade.\"",
+        "responsavel": "Leonardo Pimenta",
+        "telefone": "+55 (39) 9 4104-0775"
+    },
+    {
+        "predio_id": "PREDIO_0024",
+        "tamanho_m2": 1454,
+        "preco_estimado": 12422205.5,
+        "quantidade_de_salas": 28,
+        "ano_construcao": "2013",
+        "descricao": "Excelente oportunidade para investir em um imóvel comercial estratégico!\n\nLocalizado na avenida Marques, no coração da Vila Nossa Senhora Do Rosário, Pacatuba - CE, este prédio comercial de 1454m² é uma joia para qualquer empresário. Com 28 salas espaçosas e luminosas, este imóvel oferece um ambiente ideal para desenvolver sua atividade comercial. Construído em 2013, ele apresenta estrutura robusta e confiável, garantindo a segurança dos seus negócios.",
+        "responsavel": "Olívia Martins",
+        "telefone": "+55 (69) 9 8643-4206"
+    },
+    {
+        "predio_id": "PREDIO_0025",
+        "tamanho_m2": 1071,
+        "preco_estimado": 5179748.19,
+        "quantidade_de_salas": 49,
+        "ano_construcao": "1971",
+        "descricao": "\"Este prédio comercial é um verdadeiro tesouro em uma das localizações mais procuradas da região! Com sua estrutura robusta e histórica, datando de 1971, oferece uma oportunidade única para quem procura investir em imóveis comerciais. Com 1071 metros quadrados de área construída e 49 salas espaçosas, é o local perfeito para empresas que buscam um espaço amplo e flexível para desenvolver suas atividades. Localizado no trevo Farias, em Manacas, Caucaia - CE, este imóvel é uma opção muito atraente para quem busca estabilidade e crescimento!\"",
+        "responsavel": "Theo Dias",
+        "telefone": "+55 (03) 9 0604 6032"
+    },
+    {
+        "predio_id": "PREDIO_0026",
+        "tamanho_m2": 1389,
+        "preco_estimado": 18997342.82,
+        "quantidade_de_salas": 29,
+        "ano_construcao": "1977",
+        "descricao": "\"Encontre a oportunidade ideal para sua empresa em um dos prédios comerciais mais charmosos e estratégicos de Quixeramobim! Localizado no coração do Campo Siqueira, este imóvel oferece 1389 metros quadrados de área útil, distribuídos em 29 salas amplas e iluminadas. Construído em 1977, o prédio mantém sua estrutura original e charme, mas foi reformado para atender às necessidades modernas do mercado. Com um preço de venda de R$ 18,997,342.82, este imóvel é uma oportunidade única para quem procura um espaço amplo e bem localizado para seu negócio.\"",
+        "responsavel": "Sofia Andrade",
+        "telefone": "+55 (53) 9 1254 2206"
+    },
+    {
+        "predio_id": "PREDIO_0027",
+        "tamanho_m2": 1020,
+        "preco_estimado": 9576222.21,
+        "quantidade_de_salas": 26,
+        "ano_construcao": "2018",
+        "descricao": "\"Localizado no coração do comércio de Maracanaú, este prédio comercial é um verdadeiro tesouro! Com uma área total de 1020 m² e 26 salas amplas e iluminadas, é o ideal para empreendimentos que buscam crescimento e expansão. Construído em 2018, este imóvel apresenta qualidade construtiva e estrutura sólida, garantindo segurança e confiança aos seus futuros proprietários. Com um preço de venda de R$ 9,576,222.21, é uma oportunidade única para investidores e empresários que buscam um imóvel moderno e prático para suas necessidades.\"",
+        "responsavel": "Ísis Pastor",
+        "telefone": "+55 (93) 92599 8323"
+    },
+    {
+        "predio_id": "PREDIO_0028",
+        "tamanho_m2": 1106,
+        "preco_estimado": 4258796.9,
+        "quantidade_de_salas": 26,
+        "ano_construcao": "1975",
+        "descricao": "Oportunidade única para investir em um prédio comercial estratégico e com alto potencial de rentabilidade! Localizado na Praia de Nunes, Europa, Juazeiro do Norte - CE, este imóvel de 1106 m² oferece 26 salas ideais para atender às necessidades de qualquer empresa. Com mais de 45 anos de idade, o prédio já se consolidou como um dos principais centros comerciais da região, garantindo uma estabilidade e viabilidade financeira sem igual!",
+        "responsavel": "Sara Sá",
+        "telefone": "+55 14 9 2008 6421"
+    },
+    {
+        "predio_id": "PREDIO_0029",
+        "tamanho_m2": 895,
+        "preco_estimado": 5113985.99,
+        "quantidade_de_salas": 31,
+        "ano_construcao": "1999",
+        "descricao": "Excelente oportunidade para investir em um negócio próspero! O prédio comercial localizado na área de Moura, Crato - CE, apresenta um tamanho impressionante de 895 m² e 31 salas, oferecendo uma ótima chance para desenvolver suas atividades comerciais. Construído em 1999, este edifício está pronto para acolher qualquer tipo de empresa que busque expandir sua presença no mercado local. Com um preço competitivo de R$ 5,113,985.99, não perca essa oportunidade única para construir seu futuro!",
+        "responsavel": "Bryan Freitas",
+        "telefone": "+55 (45) 9 6700-0431"
+    },
+    {
+        "predio_id": "PREDIO_0030",
+        "tamanho_m2": 1764,
+        "preco_estimado": 7049737.74,
+        "quantidade_de_salas": 29,
+        "ano_construcao": "1995",
+        "descricao": "\"Oferecemos ao mercado um prédio comercial estratégico localizado em uma das áreas mais nobres do Sobral, próximo ao Aeroporto Rios. Com 1764 metros quadrados de área construída e 29 salas, este imóvel é ideal para empresas que desejam estar próxima à zona de atração de negócios e turismo. Construído em 1995, apresenta estrutura sólida e bem conservada, oferecendo uma oportunidade única para quem procura um investimento seguro e rentável. O preço de venda é de R$ 7,049,737.74.\"",
+        "responsavel": "Maria Isis Sampaio",
+        "telefone": "+55 03 9 1557-5496"
+    },
+    {
+        "predio_id": "PREDIO_0031",
+        "tamanho_m2": 1474,
+        "preco_estimado": 11897194.45,
+        "quantidade_de_salas": 42,
+        "ano_construcao": "2011",
+        "descricao": "\"Oferecemos ao mercado um imóvel comercial de referência em Jardim Catarina Porto, localizado em Sobral - CE. Com uma área bruta de 1474m² e 42 salas, este prédio é o ideal para empresas que buscam expandir suas atividades ou inaugurar novos negócios na região. Construído em 2011, apresenta estrutura robusta e moderna, oferecendo confort e segurança para seus ocupantes. Com um preço de venda de R$ 11,897,194.45, é uma oportunidade única para investidores e empresários que buscam um imóvel de qualidade.\"",
+        "responsavel": "Valentim Mendonça",
+        "telefone": "+55 (17) 9 4230-0363"
+    },
+    {
+        "predio_id": "PREDIO_0032",
+        "tamanho_m2": 326,
+        "preco_estimado": 2370691.1,
+        "quantidade_de_salas": 32,
+        "ano_construcao": "1978",
+        "descricao": "\"Aqui está a oportunidade de investir em um dos principais corações comerciais da região! O prédio comercial localizado na Ladeira Nunes, 47, São João Batista, Caucaia - CE, oferece 326 m² de área construída e 32 salas para atender às necessidades mais variadas. Com sua estrutura robusta e características históricas, este imóvel é um tesouro arquitetônico que combina beleza e funcionalidade. Preço: R$ 2,370,691.10.\"",
+        "responsavel": "Raquel Aparecida",
+        "telefone": "+55 (21) 99016 1498"
+    },
+    {
+        "predio_id": "PREDIO_0033",
+        "tamanho_m2": 950,
+        "preco_estimado": 12120255.11,
+        "quantidade_de_salas": 24,
+        "ano_construcao": "1981",
+        "descricao": "Excelente oportunidade para investir em um imóvel comercial estratégico! Localizado no loteamento Luan da Mata, em Pindorama, Maracanaú - CE, este prédio de 950 m² oferece 24 salas funcionais e uma localização conveniente. Construído em 1981, este imóvel histórico apresenta um charme único e é ideal para empresas que buscam estabelecer sua presença no mercado local. Com um preço de venda de R$ 12,120,255.11, esta é uma oportunidade única para quem deseja investir em um imóvel com grande potencial de rentabilidade.",
+        "responsavel": "Francisco Rodrigues",
+        "telefone": "+55 (080) 93516-0216"
+    },
+    {
+        "predio_id": "PREDIO_0034",
+        "tamanho_m2": 366,
+        "preco_estimado": 1251665.33,
+        "quantidade_de_salas": 43,
+        "ano_construcao": "1997",
+        "descricao": "\"Conheça o seu negócio ideal em Área Rezende, localizado no coração da Vila Madre Gertrudes! Este prédio comercial de 366 m² é composto por 43 salas, oferecendo uma vasta área para atender às suas necessidades. Com mais de 20 anos de construção, este imóvel está pronto para ser revitalizado e tornar-se o seu lar profissional. Oferecemos um preço competitivo de R$ 1,251,665.33, uma oportunidade única para investir em sua empresa.\"",
+        "responsavel": "Dra. Maria Fernanda da Paz",
+        "telefone": "+55 94 9 6831-8035"
+    },
+    {
+        "predio_id": "PREDIO_0035",
+        "tamanho_m2": 1350,
+        "preco_estimado": 21083771.17,
+        "quantidade_de_salas": 14,
+        "ano_construcao": "2012",
+        "descricao": "Descubra o imóvel comercial mais desejável do Condomínio de Martins em Barreiro, Fortaleza! Este prédio de 1350 m², construído em 2012, oferece 14 salas espaçosas e bem iluminadas, perfeitas para atender às necessidades de qualquer empresa. Com um preço de venda competitivo de R$ 21,083,771.17, este imóvel é uma oportunidade única para quem procura investir em um negócio próspero e rentável no coração da cidade.",
+        "responsavel": "Sra. Gabriela Peixoto",
+        "telefone": "+55 (048) 91365-2065"
+    },
+    {
+        "predio_id": "PREDIO_0036",
+        "tamanho_m2": 1707,
+        "preco_estimado": 7773063.33,
+        "quantidade_de_salas": 11,
+        "ano_construcao": "1987",
+        "descricao": "\"Este prédio comercial localizado na estratégica Passarela Cavalcanti, em Dom Bosco, Eusébio - CE, é um investimento de alto valor que não pode ser perdido! Com área construída de 1707 m² e 11 salas espaçosas, este imóvel oferece toda a potencialidade para uma variedade de negócios. Construído em 1987, sua estrutura sólida e bem conservada é um fator que garante longevidade e segurança para qualquer investimento. Valorizado em R$ 7,773,063.33, este prédio é a oportunidade perfeita para quem procura uma propriedade comercial de alto padrão.\"",
+        "responsavel": "Rebeca Gonçalves",
+        "telefone": "+55 92 97211 4284"
+    },
+    {
+        "predio_id": "PREDIO_0037",
+        "tamanho_m2": 958,
+        "preco_estimado": 5051502.38,
+        "quantidade_de_salas": 30,
+        "ano_construcao": "1973",
+        "descricao": "Excelente oportunidade para investir em um imóvel comercial de primeiro escalão! Localizado na prestigiosa Via de Moura, em Vila Mantiqueira, Caucaia - CE, este prédio comercial de 958 m² oferece uma extensa área para diversas atividades. Com 30 salas espaçosas e bem iluminadas, é perfeito para empresas que buscam um espaço amplo e prático. Construído em 1973, este imóvel apresenta estrutura sólida e confiável, garantindo uma boa condição de uso.",
+        "responsavel": "Pedro Guerra",
+        "telefone": "+55 (008) 98389 6945"
+    },
+    {
+        "predio_id": "PREDIO_0038",
+        "tamanho_m2": 560,
+        "preco_estimado": 8024592.44,
+        "quantidade_de_salas": 8,
+        "ano_construcao": "1991",
+        "descricao": "\"Oferecemos ao mercado um prédio comercial estratégico localizado na quadra de Cavalcanti, em Maracanaú, Minhaçu! Com uma área útil de 560 m² e 8 salas espaçososas, este imóvel é ideal para empresas que buscam um ambiente profissional e amplo. Construído em 1991, o prédio apresenta estrutura sólida e infraestrutura moderna, garantindo segurança e comodidade aos seus ocupantes. Com preço de venda de R$ 8,024,592.44, este é um investimento valioso para quem procura expandir suas operações ou abrir uma nova frente comercial.\"",
+        "responsavel": "Guilherme Alves",
+        "telefone": "+55 (11) 96935 3208"
+    },
+    {
+        "predio_id": "PREDIO_0039",
+        "tamanho_m2": 1215,
+        "preco_estimado": 9363558.88,
+        "quantidade_de_salas": 6,
+        "ano_construcao": "2009",
+        "descricao": "\"Desbloqueie o potencial máximo para seu negócio na Ladeira Ferreira, um dos corredores comerciais mais movimentados de Iguatu! Este prédio comercial, construído em 2009 e com área total de 1215m², oferece seis salas espaçosas e iluminadas, ideais para atendimento ao público ou para uso como escritório. Com um preço de venda competitivo de R$ 9,363,558.88, este imóvel é uma ótima oportunidade para investir em sua empresa e expandir seus negócios.\"",
+        "responsavel": "Ana Julia Cassiano",
+        "telefone": "+55 (76) 98777-5342"
+    },
+    {
+        "predio_id": "PREDIO_0040",
+        "tamanho_m2": 1566,
+        "preco_estimado": 9501788.1,
+        "quantidade_de_salas": 12,
+        "ano_construcao": "1997",
+        "descricao": "O prédio comercial Vale Benjamin Cassiano é um imóvel de luxo localizado no coração do Trevo, em Sobral - CE. Com um tamanho impressionante de 1566 m² e 12 salas espaçosas, este edifício oferece uma área útil para qualquer tipo de negócios. Construído em 1997 com materiais de alta qualidade, o prédio apresenta uma estrutura sólida e moderna. Este imóvel é uma oportunidade única para investir em um localização estratégica e valorizar sua empresa.",
+        "responsavel": "Sabrina Garcia",
+        "telefone": "+55 85 9 9331 8195"
+    },
+    {
+        "predio_id": "PREDIO_0041",
+        "tamanho_m2": 1177,
+        "preco_estimado": 3259676.52,
+        "quantidade_de_salas": 15,
+        "ano_construcao": "2006",
+        "descricao": "Oportunidade única para investir em um prédio comercial estratégicamente localizado no coração da Pousada Santo Antonio, Quixadá - CE! Com área total de 1177m² e 15 salas espaçosamente distribuídas, este imóvel é ideal para empresas que buscam expansão ou necessitam de um ambiente amplo e confortável. Construído em 2006, o prédio apresenta estrutura sólida e bem conservado, garantindo segurança e estabilidade para seus ocupantes.",
+        "responsavel": "Lucas Gabriel Aragão",
+        "telefone": "+55 09 9 4862 3552"
+    },
+    {
+        "predio_id": "PREDIO_0042",
+        "tamanho_m2": 173,
+        "preco_estimado": 2116371.04,
+        "quantidade_de_salas": 48,
+        "ano_construcao": "2022",
+        "descricao": "\"Você procura um imóvel comercial que impressione? Olhe para este prédio moderno e luxuoso localizado na Travessa Carvalho, em Tres Marias, Iguatu - CE! Com 173 metros quadrados de área construída e 48 salas, este espaço é ideal para empresas que desejam crescer e se destacar. Construído em 2022, este imóvel é uma opção única no mercado comercial, oferecendo confort e segurança para seus clientes e funcionários.\"",
+        "responsavel": "Dra. Isadora Guerra",
+        "telefone": "+55 70 92307 1387"
+    },
+    {
+        "predio_id": "PREDIO_0043",
+        "tamanho_m2": 1762,
+        "preco_estimado": 21725845.38,
+        "quantidade_de_salas": 13,
+        "ano_construcao": "1974",
+        "descricao": "\"Oferecemos ao mercado um prédio comercial de referência localizado na estação Pedro Lucas Monteiro, Vila Da Paz, Juazeiro do Norte - CE. Com uma área construída impressionante de 1762 m² e 13 salas, este imóvel é perfeito para empresas que buscam expandir suas operações ou estabelecer um novo centro de negócios. Com sua estrutura erguida em 1974 e mantida com cuidado ao longo dos anos, este prédio oferece uma oportunidade única para quem deseja investir em um imóvel de qualidade e valorizar seu negócio. Valorizado em R$ 21,725,845.38, é um investimento que não pode ser desconsiderado.\"",
+        "responsavel": "Dr. Otávio Rezende",
+        "telefone": "+55 (85) 9 3003-0967"
+    },
+    {
+        "predio_id": "PREDIO_0044",
+        "tamanho_m2": 1597,
+        "preco_estimado": 5441266.26,
+        "quantidade_de_salas": 33,
+        "ano_construcao": "1997",
+        "descricao": "Este prédio comercial é um investimento de alto valor localizado em uma das regiões mais procuradas da cidade de Eusébio, na zona nobre do Jardim Felicidade. Com um tamanho impressionante de 1597 m² e 33 salas espaciadas, oferece uma oportunidade única para estabelecer ou expandir sua empresa em um local seguro e fácil de acessar. Construído em 1997, esse prédio já tem uma estrutura consolidada e está pronto para ser ocupado, com opções variadas para adaptação às suas necessidades específicas.",
+        "responsavel": "Miguel Pastor",
+        "telefone": "+55 (03) 9 4993 1261"
+    },
+    {
+        "predio_id": "PREDIO_0045",
+        "tamanho_m2": 1838,
+        "preco_estimado": 10818400.37,
+        "quantidade_de_salas": 20,
+        "ano_construcao": "2011",
+        "descricao": "Excelente oportunidade para investir em um imóvel comercial de alta qualidade! Localizado no Setor Mendes, um dos mais nobres e movimentados setores de Eusébio, este prédio de 1838 m² oferece 20 salas espaçosas e bem iluminadas, ideais para atender às necessidades de qualquer tipo de negócio. Construído em 2011 com materiais de alta qualidade, este imóvel apresenta uma estrutura sólida e segura, garantindo a paz de espírito dos proprietários e clientes. Com um preço de venda de R$ 10,818,400.37, é uma oportunidade única para aqueles que buscam uma investimento seguro e rentável!",
+        "responsavel": "Lunna Nunes",
+        "telefone": "+55 (73) 93788 1692"
+    },
+    {
+        "predio_id": "PREDIO_0046",
+        "tamanho_m2": 1655,
+        "preco_estimado": 8956833.12,
+        "quantidade_de_salas": 23,
+        "ano_construcao": "1975",
+        "descricao": "\"Este prédio comercial é um imóvel de referência em Maranguape, localizado no coração da Vila Olhos D'água. Com uma área total de 1655m² e 23 salas, oferece grandes oportunidades para empresas que buscam expandir sua presença no mercado. Construído há mais de 40 anos, este imóvel já consolidou sua posição como um dos mais valorizados da região, tornando-o uma escolha perfeita para investidores e empreendedores. Com preço de venda de R$ 8.956.833,12, é uma oportunidade única para quem deseja estabelecer seu negócio em um local estratégico e com grandes possibilidades de crescimento.\"",
+        "responsavel": "Maria Alice Vasconcelos",
+        "telefone": "+55 (097) 97624 3808"
+    },
+    {
+        "predio_id": "PREDIO_0047",
+        "tamanho_m2": 892,
+        "preco_estimado": 4840348.68,
+        "quantidade_de_salas": 35,
+        "ano_construcao": "1970",
+        "descricao": "\"Este prédio comercial é um investimento de alto valor em Feira Gomes, Aparecida, Quixadá. Com uma área total de 892m² e 35 salas, oferece uma oportunidade única para estabelecer sua marca ou expandir seu negócio. Construído há mais de 50 anos, este imóvel apresenta uma estrutura sólida e confiável, garantindo uma longevidade e durabilidade. Com um preço de venda competitivo em R$ 4,840,348.68, é uma oportunidade imperdível para quem procura um local estratégico e com características excepcionais.\"",
+        "responsavel": "Júlia Borges",
+        "telefone": "+55 90 9 8442-4211"
+    },
+    {
+        "predio_id": "PREDIO_0048",
+        "tamanho_m2": 1614,
+        "preco_estimado": 12820826.54,
+        "quantidade_de_salas": 12,
+        "ano_construcao": "2003",
+        "descricao": "\"Aqui está uma oportunidade única para investir em um dos mais valiosos imóveis comerciais da Área Duarte! Este prédio, construído em 2003, apresenta um total de 12 salas e cerca de 1.614 metros quadrados de área útil. Com sua localização estratégica no coração de São Pedro, Quixadá-CE, este imóvel oferece uma ótima visibilidade e acessibilidade para qualquer tipo de negócio. O preço de venda é de R$ 12,820,826,54, um valor que reflete a qualidade e o potencial de crescimento desse investimento.\"",
+        "responsavel": "Helena Sousa",
+        "telefone": "+55 (027) 94146-0053"
+    },
+    {
+        "predio_id": "PREDIO_0049",
+        "tamanho_m2": 1862,
+        "preco_estimado": 20522629.93,
+        "quantidade_de_salas": 47,
+        "ano_construcao": "1979",
+        "descricao": "\"Imóvel comercial de alto valor em localização estratégica! O prédio está localizado no coração do Residencial Andrade, em Minaslandia, Juazeiro do Norte - CE, oferecendo fácil acesso e visibilidade. Com uma área total de 1862m² e 47 salas, este imóvel é ideal para empresas que buscam um espaço amplo e prático para atender às suas necessidades. A construção datada de 1979 garante a estabilidade e durabilidade do edifício, tornando-o uma ótima oportunidade para investimentos lucrativos.\"",
+        "responsavel": "Srta. Pietra Guerra",
+        "telefone": "+55 16 93664 8727"
+    },
+    {
+        "predio_id": "PREDIO_0050",
+        "tamanho_m2": 778,
+        "preco_estimado": 10219011.25,
+        "quantidade_de_salas": 26,
+        "ano_construcao": "2010",
+        "descricao": "\"Este prédio comercial é uma oportunidade única para investir em um local estratégico e com alto potencial de rentabilidade! Localizado na Favela Pimenta, em Anchieta, Fortaleza, este imóvel de 778 metros quadrados oferece 26 salas espaçosas e iluminadas, perfeitas para empresas que buscam expandir suas atividades. Com apenas 10 anos de idade, este prédio está muito bem conservado e mantém sua estrutura moderna e segura. Valorizado em R$ 10,219,011.25, este imóvel é um investimento valioso para qualquer empresário que busque crescimento e estabilidade.\"",
+        "responsavel": "Rhavi Novaes",
+        "telefone": "+55 99 91251-4094"
+    },
+    {
+        "predio_id": "PREDIO_0051",
+        "tamanho_m2": 1016,
+        "preco_estimado": 15573279.74,
+        "quantidade_de_salas": 30,
+        "ano_construcao": "1978",
+        "descricao": "Oferecemos ao mercado um prédio comercial de grande porte, localizado no coração da Favela Eduarda Mendonça, em Dom Joaquim, Caucaia - CE! Com um tamanho impressionante de 1016 m² e 30 salas distribuídas estrategicamente, este imóvel é ideal para quem procura um espaço amplo e multifuncional. Construído em 1978, o prédio apresenta uma arquitetura sólida e resistente ao tempo, garantindo segurança e estabilidade para seus ocupantes.",
+        "responsavel": "Gael Henrique Ferreira",
+        "telefone": "+55 (002) 99721-1916"
+    },
+    {
+        "predio_id": "PREDIO_0052",
+        "tamanho_m2": 1997,
+        "preco_estimado": 26262869.28,
+        "quantidade_de_salas": 23,
+        "ano_construcao": "1971",
+        "descricao": "\"Aqui encontra o seu negócio sonho! Localizado na esplanada de Lopes, em Caiçara - Adelaide, Maracanaú, este prédio comercial de 1.997 metros quadrados é um verdadeiro tesouro imobiliário. Com 23 salas luxuosamente espaçadas e construído há mais de 50 anos, ele oferece uma estrutura sólida e confiável para qualquer tipo de atividade empresarial. Com um preço competitivo de R$ 26,262,869,28, este imóvel é uma oportunidade única para investidores e empreendedores que buscam estabelecer sua marca na região.\"",
+        "responsavel": "Henry Gabriel Barbosa",
+        "telefone": "+55 27 9 5960 6594"
+    },
+    {
+        "predio_id": "PREDIO_0053",
+        "tamanho_m2": 1321,
+        "preco_estimado": 17398565.45,
+        "quantidade_de_salas": 49,
+        "ano_construcao": "1989",
+        "descricao": "\"Você está diante da oportunidade de investir em um dos mais valiosos imóveis comerciais do setor! Localizado na Estação da Cunha, Itaipu, Maracanaú - CE, este prédio comercial de 1321 m² oferece uma área útil perfeita para empresas que buscam expandir suas operações. Com 49 salas luxuosamente projetadas e construídas em 1989, este imóvel é um nicho para qualquer tipo de negócios. O preço de venda de R$ 17,398,565.45 é uma oportunidade única para quem procura um investimento seguro e rentável!\"",
+        "responsavel": "Benjamim Mendes",
+        "telefone": "+55 20 95390-3841"
+    },
+    {
+        "predio_id": "PREDIO_0054",
+        "tamanho_m2": 678,
+        "preco_estimado": 5864498.38,
+        "quantidade_de_salas": 41,
+        "ano_construcao": "2006",
+        "descricao": "Excelente oportunidade para investir em um prédio comercial de qualidade! Localizado na Via Maria Liz Melo, 95, Pongelupe, Fortaleza - CE, este imóvel de 678 m² oferece uma área impressionante com 41 salas, ideal para empresas que buscam expansão e crescimento. Construído em 2006, esse edifício é um investimento seguro e sustentável, com alto valor agregado pela sua localização estratégica e infraestrutura moderna. Está à venda por R$ 5,864,498.38, uma oportunidade única para quem busca estabelecer seu negócio em um dos pontos mais movimentados da cidade.",
+        "responsavel": "Beatriz Leão",
+        "telefone": "+55 (31) 99214 6482"
+    },
+    {
+        "predio_id": "PREDIO_0055",
+        "tamanho_m2": 1775,
+        "preco_estimado": 18788990.77,
+        "quantidade_de_salas": 9,
+        "ano_construcao": "1973",
+        "descricao": "\"Oferecemos para venda um prédio comercial de classe A localizado no Vale Marcos Vinicius Fonseca, uma das regiões mais valorizadas de Maracanaú! Com um total de 1775 metros quadrados e 9 salas, este imóvel é ideal para empresas que buscam expandir suas operações ou estabelecer uma nova presença no mercado. Construído em 1973, mas completamente reformado e atualizado para atender às mais altas exigências de confort e segurança, este prédio é uma oportunidade única para quem busca investir em um negócio próspero.\"",
+        "responsavel": "Pietra Barbosa",
+        "telefone": "+55 35 9 9915-9845"
+    },
+    {
+        "predio_id": "PREDIO_0056",
+        "tamanho_m2": 707,
+        "preco_estimado": 2374803.9,
+        "quantidade_de_salas": 20,
+        "ano_construcao": "2025",
+        "descricao": "\"Este prédio comercial é um investimento de primeira linha localizado em uma das mais acessíveis e movimentadas regiões de Itapipoca, a Piraja! Com um total de 707 metros quadrados, este imóvel oferece 20 salas amplos e bem iluminados, garantindo confort e eficiência para qualquer tipo de negócios. Construído recentemente em 2025, este prédio é uma opção segura e moderna para quem procura estabelecer sua marca na região. Com um preço competitivo de R$ 2,374,803.90, não perca a oportunidade de investir em um imóvel que combina facilidade de acesso com amplas possibilidades de crescimento!\"",
+        "responsavel": "Maria Julia Vieira",
+        "telefone": "+55 (33) 9 3615 5268"
+    },
+    {
+        "predio_id": "PREDIO_0057",
+        "tamanho_m2": 860,
+        "preco_estimado": 8822258.89,
+        "quantidade_de_salas": 35,
+        "ano_construcao": "1978",
+        "descricao": "\"Está à venda um imóvel comercial de referência no Aeroporto de Moraes, localizado em uma área estratégica e com fácil acesso ao terminal de passageiros. Com um total de 860 metros quadrados e 35 salas, este prédio é ideal para empresas que buscam expandir suas operações ou estabelecer uma nova presença no setor aeroportuário. Construído em 1978, o imóvel apresenta um charme arquitectural único e é um investimento seguro e lucrativo para qualquer empresário.\"",
+        "responsavel": "Brayan Leão",
+        "telefone": "+55 (098) 92747-9220"
+    },
+    {
+        "predio_id": "PREDIO_0058",
+        "tamanho_m2": 1165,
+        "preco_estimado": 3487317.05,
+        "quantidade_de_salas": 27,
+        "ano_construcao": "2003",
+        "descricao": "\"Descubra o potencial comercial em Largo de Pires com este prédio exclusivo! Com uma área útil de 1165 m² e 27 salas, é o local ideal para empresas que buscam expandir suas operações. Construído em 2003, este imóvel apresenta infraestrutura moderna e estrutura sólida. Com um preço de venda de R$ 3,487,317,05, este é um investimento valioso que não deve ser perdido!\"",
+        "responsavel": "Marcos Vinicius Porto",
+        "telefone": "+55 30 96181 9231"
+    },
+    {
+        "predio_id": "PREDIO_0059",
+        "tamanho_m2": 275,
+        "preco_estimado": 3323767.03,
+        "quantidade_de_salas": 44,
+        "ano_construcao": "1999",
+        "descricao": "\"Você está à procura do imóvel comercial dos seus sonhos? Então, é aqui que você encontra! Localizado em Campo Cavalcanti, Vila Aeroporto Jaraguá, Tianguá-CE, este prédio comercial de 275 m² oferece uma oportunidade única para os negócios. Com 44 salas amplas e bem iluminadas, ele é perfeito para empresas que desejam expandir suas operações ou estabelecer um novo centro de atuação na região. Construído em 1999, este imóvel apresenta uma estrutura sólida e confiável, tornando-o uma excelente escolha para investidores.\"",
+        "responsavel": "Maria Luiza Lopes",
+        "telefone": "+55 (09) 9 5254-6472"
+    },
+    {
+        "predio_id": "PREDIO_0060",
+        "tamanho_m2": 177,
+        "preco_estimado": 1475694.75,
+        "quantidade_de_salas": 17,
+        "ano_construcao": "1987",
+        "descricao": "Oferecemos ao mercado um imóvel comercial de primeira linha, localizado em um dos lotes mais valorizados da Vila Ouro Minas, Tianguá - CE. Este prédio de 177 m², construído em 1987, apresenta uma estrutura robusta e estágioado com 17 salas, ideal para atender às necessidades de qualquer empresa que busque um ambiente profissional e espaçoso. Com sua localização estratégica e preço competitivo de R$ 1,475,694,75, este imóvel é uma oportunidade única para investir em seu futuro empresarial.",
+        "responsavel": "Lavínia Martins",
+        "telefone": "+55 (11) 9 6689 5368"
+    },
+    {
+        "predio_id": "PREDIO_0061",
+        "tamanho_m2": 804,
+        "preco_estimado": 3923499.42,
+        "quantidade_de_salas": 27,
+        "ano_construcao": "1996",
+        "descricao": "Desbloqueie o potencial do seu negócio no coração do Pátio Cavalcante! Este prédio comercial de 804 metros quadrados, construído em 1996, apresenta uma oportunidade única para quem procura expandir sua marca ou iniciar um novo empreendimento. Com 27 salas espaçosas e iluminadas, é o local ideal para estabelecimentos que buscam atender à demanda crescente da região. Oferecemos este investimento imobiliário por R$ 3,923,499.42, uma oportunidade que não pode ser perdida!",
+        "responsavel": "Isis Silva",
+        "telefone": "+55 (021) 97020-2662"
+    },
+    {
+        "predio_id": "PREDIO_0062",
+        "tamanho_m2": 1241,
+        "preco_estimado": 16945737.09,
+        "quantidade_de_salas": 15,
+        "ano_construcao": "1995",
+        "descricao": "\"Localizado em uma das regiões mais nobres da cidade, o prédio comercial de Chácara de Alves oferece uma oportunidade única para investir em um imóvel com características únicas e vastas possibilidades de negócios. Com 1241 m² de área construída e 15 salas espaçosas, este edifício é ideal para empresas que desejam expandir suas operações ou estabelecer um novo hub. Construído em 1995 com materiais de alta qualidade, o prédio apresenta uma estrutura robusta e prática, garantindo a segurança e conforto dos ocupantes. Com um preço competitivo de R$ 16,945,737.09, não perca essa oportunidade de investir em um imóvel que promete retornos sustentáveis ao longo do tempo.\"",
+        "responsavel": "Cauê Sá",
+        "telefone": "+55 23 9 1252-6933"
+    },
+    {
+        "predio_id": "PREDIO_0063",
+        "tamanho_m2": 843,
+        "preco_estimado": 9804656.93,
+        "quantidade_de_salas": 7,
+        "ano_construcao": "2007",
+        "descricao": "\"Você procura um imóvel comercial estratégico e valorizado em uma das regiões mais nobres da cidade de Crato? Então, este prédio é sua oportunidade! Localizado no coração da Área Silveira, tem 843 metros quadrados de área construída distribuídos em sete salas, ideal para empresas que desejam estar próxima ao centro comercial e à vida noturna. Com apenas 14 anos de idade, este imóvel foi construído com qualidade e mantém sua estrutura original desde a data de inauguração em 2007.\"",
+        "responsavel": "Dom Pimenta",
+        "telefone": "+55 54 9 7886-2385"
+    },
+    {
+        "predio_id": "PREDIO_0064",
+        "tamanho_m2": 1999,
+        "preco_estimado": 20762815.6,
+        "quantidade_de_salas": 43,
+        "ano_construcao": "2022",
+        "descricao": "\"Estratégico localizado em uma das principais ruas comerciais de Sobral, o prédio comercial é um investimento único e irresistível! Com um impressionante total de 1999 m² e 43 salas espaçosas, este imóvel é o ideal para empresas que desejam estabelecer sua presença na cidade. Construído em 2022 com materiais de alta qualidade, oferece todos os confortos modernos para seus ocupantes, tornando-se um ótimo negócio para qualquer empresário.\"",
+        "responsavel": "Thiago Casa Grande",
+        "telefone": "+55 71 9 3861-9340"
+    },
+    {
+        "predio_id": "PREDIO_0065",
+        "tamanho_m2": 1924,
+        "preco_estimado": 8056746.12,
+        "quantidade_de_salas": 23,
+        "ano_construcao": "1992",
+        "descricao": "Oferecemos à sua atenção um prédio comercial estratégico localizado na Esplanada Gabriela da Paz, em Aparecida, Juazeiro do Norte - CE. Com uma área útil de 1924 m² e 23 salas, este imóvel é perfeito para empresas que buscam expandir suas operações ou estabelecer um hub regional. Construído em 1992, o prédio apresenta estrutura sólida e características arquitetônicas impressionantes, tornando-se uma opção de investimento segura e rentável.",
+        "responsavel": "Dra. Rebeca Leão",
+        "telefone": "+55 (97) 9 5268 0048"
+    },
+    {
+        "predio_id": "PREDIO_0066",
+        "tamanho_m2": 608,
+        "preco_estimado": 2896786.4,
+        "quantidade_de_salas": 44,
+        "ano_construcao": "2006",
+        "descricao": "\"Oferecemos ao mercado um prédio comercial de excelência localizado em uma das regiões mais movimentadas e desejáveis do Brasil, a Fazenda de Casa Grande, em Juazeiro do Norte - CE. Com um total de 608 m² de área construída e 44 salas modernamente projetadas, este imóvel é ideal para empresas que buscam expandir suas operações ou estabelecer uma presença forte no mercado. Construído em 2006 com materiais de alta qualidade, este prédio é um investimento seguro e valorizado à R$ 2,896,786,40.\"",
+        "responsavel": "Arthur Gabriel da Cruz",
+        "telefone": "+55 98 98150 0804"
+    },
+    {
+        "predio_id": "PREDIO_0067",
+        "tamanho_m2": 172,
+        "preco_estimado": 2251639.23,
+        "quantidade_de_salas": 50,
+        "ano_construcao": "1974",
+        "descricao": "\"Excelente oportunidade para investir em um imóvel comercial próspero! Localizado no coração do Distrito Clara Borges, em Solimões, Juazeiro do Norte - CE, este prédio com 172 m² de área construída e 50 salas dispõe de uma estrutura sólida desde sua construção em 1974. Compre o seu negócio ou amplie a sua empresa nesse local valorizado e acessível. Oferecemos esta propriedade por R$ 2,251,639.23, um preço justo para um imóvel com potencial de crescimento.\"",
+        "responsavel": "Antonella Rocha",
+        "telefone": "+55 (42) 94396-8701"
+    },
+    {
+        "predio_id": "PREDIO_0068",
+        "tamanho_m2": 717,
+        "preco_estimado": 3341686.98,
+        "quantidade_de_salas": 15,
+        "ano_construcao": "1991",
+        "descricao": "Excelente oportunidade para quem procura um imóvel comercial estratégico e bem localizado! O prédio Feira Souza, situado na avenida principal de Eusébio, oferece 717 metros quadrados de área útil distribuídos em 15 salas, perfeitas para atender às necessidades de qualquer empresa. Construído em 1991, este imóvel apresenta uma estrutura robusta e confiável, garantindo a segurança e estabilidade dos seus investimentos. Com um preço de venda competitivo de R$ 3,341,686.98, é uma oportunidade única para quem deseja expandir sua presença no mercado local.",
+        "responsavel": "Sra. Esther da Conceição",
+        "telefone": "+55 21 91617 7183"
+    },
+    {
+        "predio_id": "PREDIO_0069",
+        "tamanho_m2": 1571,
+        "preco_estimado": 7189874.0,
+        "quantidade_de_salas": 45,
+        "ano_construcao": "2008",
+        "descricao": "Este prédio comercial de luxo, localizado na Rodovia de Lopes, 44, em Beira Linha, Caucaia - CE, é um investimento incrível para qualquer empresário ou investidor. Com uma área útil de 1571 m² e 45 salas, oferece uma opção única para estabelecer ou expandir sua empresa. Construído em 2008, este imóvel apresenta estrutura robusta e segura, garantindo a confiança dos seus ocupantes. Com um preço de venda de R$ 7,189,874.00, é uma oportunidade única para aqueles que buscam uma instalação comercial de qualidade e tamanho.",
+        "responsavel": "Sra. Manuella Correia",
+        "telefone": "+55 (97) 9 6370-2742"
+    },
+    {
+        "predio_id": "PREDIO_0070",
+        "tamanho_m2": 1619,
+        "preco_estimado": 6525109.41,
+        "quantidade_de_salas": 42,
+        "ano_construcao": "2002",
+        "descricao": "\"Excelente oportunidade para quem procura um prédio comercial estratégico e espaçoso! Localizado em Área Lopes, Novo São Lucas, Itapipoca - CE, este imóvel de 1619 m² oferece 42 salas para uso comercial. Construído em 2002, apresenta infraestrutura moderna e fácil acesso. Com um preço competitivo de R$ 6,525,109.41, é uma escolha valiosa para quem deseja estabelecer ou expandir sua empresa na região.\"",
+        "responsavel": "Maria Alice Gomes",
+        "telefone": "+55 (59) 9 3043 3635"
+    },
+    {
+        "predio_id": "PREDIO_0071",
+        "tamanho_m2": 1051,
+        "preco_estimado": 11998927.19,
+        "quantidade_de_salas": 38,
+        "ano_construcao": "1980",
+        "descricao": "\"Excelente oportunidade para investidores e empreendedores! Este prédio comercial, localizado estrategicamente na rua Bryan Almeida, Camponesa 2ª Seção, Quixeramobim - CE, oferece uma área total de 1051 m² divididos em 38 salas, ideais para atender às necessidades de qualquer tipo de negócio. Construído em 1980, este imóvel conserva a sua estrutura original, mas com grandes oportunidades de reformulação e revitalização para melhorar a sua eficiência e valor. Com preço de venda de R$ 11,998,927.19, é uma excelente opção para quem deseja expandir ou estabelecer seu negócio na região.\"",
+        "responsavel": "Sr. Felipe da Paz",
+        "telefone": "+55 92 90647 7067"
+    },
+    {
+        "predio_id": "PREDIO_0072",
+        "tamanho_m2": 634,
+        "preco_estimado": 5520548.71,
+        "quantidade_de_salas": 43,
+        "ano_construcao": "1973",
+        "descricao": "\"Encontre o local ideal para seu negócio em um prédio comercial estratégico e emblemático da região! Localizado na tranquilidade do Lago João Vitor da Luz, este imóvel de 634 m² oferece uma área útil impressionante composta por 43 salas, perfeita para atender às necessidades de qualquer tipo de empresa. Com construção datando de 1973, este prédio mantém sua estrutura robusta e sólida, garantindo segurança e estabilidade para seu investimento. Com um preço de venda de R$ 5,520,548.71, é uma oportunidade única para se estabelecer na região e alcançar o sucesso!\"",
+        "responsavel": "Melina Marques",
+        "telefone": "+55 25 9 8574-5452"
+    },
+    {
+        "predio_id": "PREDIO_0073",
+        "tamanho_m2": 1692,
+        "preco_estimado": 24343311.87,
+        "quantidade_de_salas": 14,
+        "ano_construcao": "1983",
+        "descricao": "Oportunidade única para investir em um dos maiores e mais valorizados imóveis comerciais da região! Localizado no charmoso Parque Carolina Melo, este prédio de 1692 metros quadrados é composto por 14 salas luxuosas, ideal para empresas que buscam uma presença destacada. Com sua construção datando de 1983, este imóvel já se consolidou como um marco da área comercial de Nova Suíça e agora está à venda a preço de R$ 24,343,311.87, oferecendo uma ótima oportunidade para quem procura investir em propriedade que gerem renda e valorize seu negócio.",
+        "responsavel": "Sr. Matheus Oliveira",
+        "telefone": "+55 (19) 9 4008 4527"
+    },
+    {
+        "predio_id": "PREDIO_0074",
+        "tamanho_m2": 1249,
+        "preco_estimado": 10981522.06,
+        "quantidade_de_salas": 12,
+        "ano_construcao": "1993",
+        "descricao": "Oferecemos ao mercado um imóvel comercial de grande valor, localizado em uma das regiões mais valorizadas da cidade, o Núcleo de Rocha, em Vila Jardim Montanhes, Fortaleza. Com área total de 1249 metros quadrados e 12 salas amplamente iluminadas, este prédio comercial é ideal para empresas que buscam um ambiente moderno e amplo para desenvolver suas atividades comerciais. Construído em 1993, este imóvel apresenta estrutura sólida e segura, garantindo uma boa manutenção ao longo dos anos.",
+        "responsavel": "João Guilherme Costa",
+        "telefone": "+55 48 9 9748-3425"
+    },
+    {
+        "predio_id": "PREDIO_0075",
+        "tamanho_m2": 558,
+        "preco_estimado": 5867983.84,
+        "quantidade_de_salas": 24,
+        "ano_construcao": "2008",
+        "descricao": "Este prédio comercial é um verdadeiro tesouro em localização estratégica na Colônia Santos, Pantanal, Tianguá! Com um total de 558 m² e 24 salas espaçosas, este imóvel é perfeito para empresários que buscam expandir suas operações. Construído em 2008, o prédio apresenta estrutura robusta e acabamento superior, garantindo a mais alta qualidade para qualquer tipo de atividade comercial. Com um preço de venda competitivo de R$ 5,867,983.84, este é um negócio que não deve ser perdido!",
+        "responsavel": "Stella Rodrigues",
+        "telefone": "+55 67 9 0139 8389"
+    },
+    {
+        "predio_id": "PREDIO_0076",
+        "tamanho_m2": 1205,
+        "preco_estimado": 13546376.76,
+        "quantidade_de_salas": 49,
+        "ano_construcao": "1999",
+        "descricao": "\"Oferecemos ao mercado um imóvel comercial de tirar o fôlego! Localizado na Avenida Olívia Machado, em Brasil Industrial, Aquiraz - CE, este prédio é um investimento seguro e rentável. Com 1205 m² de área construída e 49 salas, tem potencial ilimitado para atender às necessidades mais variadas de qualquer negócio. Construído em 1999, este imóvel já se consolidou como uma opção valorizada no mercado comercial local.\"",
+        "responsavel": "Joana Dias",
+        "telefone": "+55 (43) 9 5811-5896"
+    },
+    {
+        "predio_id": "PREDIO_0077",
+        "tamanho_m2": 790,
+        "preco_estimado": 7629805.72,
+        "quantidade_de_salas": 20,
+        "ano_construcao": "2001",
+        "descricao": "\"Oferecemos à venda um prédio comercial de excelência, localizado no charmoso Parque de Sousa, em Maranguape - CE! Com uma área útil de 790 m² e 20 salas espaçosas, este imóvel é ideal para empresas que buscam expandir suas atividades ou estabelecer novos negócios. Construído em 2001, apresenta estrutura sólida e moderna, oferecendo todas as condições para um crescimento sustentável. Com preço de venda de R$ 7,629,805.72, é uma oportunidade única para aqueles que desejam investir em um imóvel que combina funcionalidade com charme.\"",
+        "responsavel": "Arthur Gabriel Cunha",
+        "telefone": "+55 (17) 9 9475 9925"
+    },
+    {
+        "predio_id": "PREDIO_0078",
+        "tamanho_m2": 1492,
+        "preco_estimado": 5757032.49,
+        "quantidade_de_salas": 5,
+        "ano_construcao": "2019",
+        "descricao": "\"Oferecemos ao mercado este imóvel comercial de primeira linha, localizado no coração da cidade de Sobral, na avenida Vereda Pietro Fogaça. Com um total de 1492 metros quadrados e 5 salas esclarecidas, este prédio é o ideal para qualquer empresa que busque um espaço moderno e bem planejado. Construído em 2019, este imóvel apresenta uma estrutura robusta e segura, garantindo a tranquilidade dos seus ocupantes. Com um preço de venda de R$ 5,757,032,49, não é apenas um investimento valioso, mas também uma oportunidade para estabelecer sua marca na região.\"",
+        "responsavel": "Lavínia Brito",
+        "telefone": "+55 (78) 93131-3282"
+    },
+    {
+        "predio_id": "PREDIO_0079",
+        "tamanho_m2": 529,
+        "preco_estimado": 5442018.11,
+        "quantidade_de_salas": 8,
+        "ano_construcao": "1986",
+        "descricao": "\"Você procura um imóvel comercial com potencial infinito? Encontre aqui! Este prédio localizado na estratégica Alameda de Mendes, 86, em Santo Antônio, Maracanaú - CE, oferece uma área útil de 529 m² e divide-se em 8 salas ideais para qualquer tipo de negócio. Com um estilo arquitetônico característico da época de construção (1986), este imóvel está pronto para ser revolucionado com sua própria identidade. Valorizado em R$ 5,442,018.11, é uma oportunidade única para qualquer empresário ou investidor.\"",
+        "responsavel": "Sra. Ana da Rosa",
+        "telefone": "+55 (096) 91394-9951"
+    },
+    {
+        "predio_id": "PREDIO_0080",
+        "tamanho_m2": 1065,
+        "preco_estimado": 10931147.07,
+        "quantidade_de_salas": 18,
+        "ano_construcao": "2022",
+        "descricao": "Este prédio comercial é um dos mais valiosos e desejáveis da Esplanada Souza, em Vitoria, Maranguape - CE! Com 1065 m² de área construída e 18 salas espaçosas, este imóvel oferece uma oportunidade única para qualquer empresa que busque expandir suas operações. Construído em 2022, este edifício novo e moderno é a personificação da eficiência e do estilo, com design e acabamento de alta qualidade. Com um preço de venda de R$ 10,931,147.07, não há melhor investimento para qualquer negócio!",
+        "responsavel": "Maria Alice da Conceição",
+        "telefone": "+55 (007) 94363-2176"
+    },
+    {
+        "predio_id": "PREDIO_0081",
+        "tamanho_m2": 1927,
+        "preco_estimado": 21709020.46,
+        "quantidade_de_salas": 15,
+        "ano_construcao": "1998",
+        "descricao": "Oportunidade única para investir em um imóvel comercial estrategicamente localizado no coração do Conjunto de Martins, em Madri, Crato - CE. Este prédio comercial de 1927 metros quadrados, construído em 1998, apresenta 15 salas espaçosas e luminosas, ideal para empresas que buscam um espaço moderno e prático para suas atividades. Com preço de venda de R$ 21,709,020.46, este imóvel oferece uma oportunidade valiosa para investidores e empresários que desejam estabelecer-se em uma área movimentada e com fácil acesso.",
+        "responsavel": "João Guilherme Costela",
+        "telefone": "+55 (98) 97821-2023"
+    },
+    {
+        "predio_id": "PREDIO_0082",
+        "tamanho_m2": 732,
+        "preco_estimado": 8774937.58,
+        "quantidade_de_salas": 18,
+        "ano_construcao": "2015",
+        "descricao": "Excelente oportunidade para investir em um imóvel comercial de alta qualidade! Localizado na estratégica Via de Abreu, em Biquinhas, Quixeramobim - CE, este prédio construído em 2015 apresenta uma área útil de 732 m² e 18 salas, oferecendo vastos espaços para atendimento ao seu negócio. Com um preço de venda competitivo de R$ 8,774,937.58, é o local ideal para empresas que desejam estabelecer-se em uma área movimentada e com fácil acesso.",
+        "responsavel": "Emanuella Correia",
+        "telefone": "+55 (22) 9 4593-8973"
+    },
+    {
+        "predio_id": "PREDIO_0083",
+        "tamanho_m2": 1694,
+        "preco_estimado": 6993362.01,
+        "quantidade_de_salas": 9,
+        "ano_construcao": "1977",
+        "descricao": "Neste prédio comercial, localizado em uma das mais procuradas regiões de Caucaia, você encontra um espaço amplo e luxuoso com 1694 metros quadrados de área construída. Com nove salas amplas e bem iluminadas, este imóvel é o ideal para empresas que buscam um local de trabalho moderno e eficiente. Com apenas 44 anos de idade, este prédio apresenta estrutura sólida e resistente ao tempo, garantindo a segurança e confiabilidade para suas operações.",
+        "responsavel": "Sr. Yan Leão",
+        "telefone": "+55 (64) 97464-0106"
+    },
+    {
+        "predio_id": "PREDIO_0084",
+        "tamanho_m2": 1619,
+        "preco_estimado": 20082304.32,
+        "quantidade_de_salas": 22,
+        "ano_construcao": "2022",
+        "descricao": "\"Imóvel comercial de luxo em localização estratégica na Vila Real 1ª Seção! Este prédio de apenas dois anos de idade, com um total de 1619m² e 22 salas, é o ideal para qualquer empresário que deseja estabelecer uma presença forte no mercado. Com sua localização privilegiada em Viela Giovanna da Mota, você terá fácil acesso a todas as principais vias de circulação e estarão próximo a todos os serviços essenciais. É um investimento seguro e lucrativo para qualquer tipo de negócio!\"",
+        "responsavel": "Arthur Costa",
+        "telefone": "+55 (082) 95703-3903"
+    },
+    {
+        "predio_id": "PREDIO_0085",
+        "tamanho_m2": 1731,
+        "preco_estimado": 17306446.32,
+        "quantidade_de_salas": 6,
+        "ano_construcao": "2008",
+        "descricao": "\"Excelente oportunidade para investimentos em imóveis comerciais! Localizado no Recanto Abreu, um dos mais concorridos e movimentados bairros de São Marcos, Eusébio - CE, este prédio comercial oferece 1731 m² de área construída, distribuídos em 6 salas amplas e bem iluminadas. Construído em 2008, este imóvel está em perfeita condição para qualquer atividade empresarial que busque um local estratégico e confiável. Com um preço de venda de R$ 17,306,446.32, é uma oportunidade única para quem deseja estabelecer sua marca nesse importante ponto de encontro.\"",
+        "responsavel": "Ana Beatriz Nunes",
+        "telefone": "+55 (075) 97051-7255"
+    },
+    {
+        "predio_id": "PREDIO_0086",
+        "tamanho_m2": 223,
+        "preco_estimado": 2318095.33,
+        "quantidade_de_salas": 14,
+        "ano_construcao": "2018",
+        "descricao": "\"Encontre o seu sucesso em um dos mais belos prédios comerciais da região! Localizado no recanto de Correia, Santa Efigênia, Iguatu - CE, este imóvel oferece 223 metros quadrados de área construída e 14 salas para atender às suas necessidades. Com apenas 3 anos de construção, em 2018, você pode estar certo de que está investindo em um imóvel novo e moderno. Com um preço de venda competitivo de R$ 2.318.095,33, não perca esta oportunidade de estabelecer sua marca em um local estratégico!\"",
+        "responsavel": "Erick da Mota",
+        "telefone": "+55 (50) 9 8580 0523"
+    },
+    {
+        "predio_id": "PREDIO_0087",
+        "tamanho_m2": 215,
+        "preco_estimado": 1751204.55,
+        "quantidade_de_salas": 6,
+        "ano_construcao": "1999",
+        "descricao": "Aqui vai uma possível descrição para o imóvel:\n\n\"Localizado no coração do loteamento Rodrigues, em Vila Antena, Itapipoca, encontra-se este prédio comercial de 215 metros quadrados. Com seis salas amplamente iluminadas e funcionais, é perfeito para atender às necessidades de qualquer empresa. Construído em 1999, mantém toda a sua estrutura firme e segura, oferecendo uma ótima oportunidade para quem procura um investimento seguro e rentável.\"",
+        "responsavel": "Ana Júlia da Cruz",
+        "telefone": "+55 57 9 6280 9877"
+    },
+    {
+        "predio_id": "PREDIO_0088",
+        "tamanho_m2": 491,
+        "preco_estimado": 6423307.01,
+        "quantidade_de_salas": 10,
+        "ano_construcao": "1977",
+        "descricao": "Encontre o seu negócio sonho em nosso prédio comercial localizado no coração do Núcleo de Rodrigues, em Boa Esperança, Juazeiro do Norte - CE! Com um total de 491 m² e 10 salas espaçosas, este imóvel é o ideal para quem busca estabelecer sua marca na região. Construído em 1977, este prédio apresenta uma estrutura robusta e confiável, garantindo a segurança e estabilidade dos seus negócios.",
+        "responsavel": "Dra. Mirella Pereira",
+        "telefone": "+55 (005) 91590 5428"
+    },
+    {
+        "predio_id": "PREDIO_0089",
+        "tamanho_m2": 704,
+        "preco_estimado": 8360631.42,
+        "quantidade_de_salas": 23,
+        "ano_construcao": "1989",
+        "descricao": "Excelente oportunidade para investir em um imóvel comercial de grande porte e localização privilegiada! O prédio localizado na Ladeira Campos, Santana do Cafezal, Fortaleza, oferece 704 metros quadrados de área construída e 23 salas perfeitamente distribuídas. Com mais de 30 anos de construção, este imóvel já tem uma estrutura sólida e está pronto para ser ocupado ou reformulado para atender às suas necessidades específicas.",
+        "responsavel": "Davi Lopes",
+        "telefone": "+55 (16) 92547 9622"
+    },
+    {
+        "predio_id": "PREDIO_0090",
+        "tamanho_m2": 193,
+        "preco_estimado": 2621533.98,
+        "quantidade_de_salas": 10,
+        "ano_construcao": "2017",
+        "descricao": "\"Imóvel comercial de alta qualidade localizado no coração da Praia Miguel da Rocha, Nazare, Quixadá - CE! Com um total de 193 m² e 10 salas espaçosas, este prédio é ideal para empresas que buscam uma estrutura moderna e funcional. Construído em 2017, oferece todos os confortos e inovações que você precisa para gerenciar seu negócio com sucesso. Com um preço de venda de R$ 2,621,533,98, este imóvel é uma oportunidade única para investir em sua empresa!\"",
+        "responsavel": "Sra. Júlia Gomes",
+        "telefone": "+55 81 9 4478 5887"
+    },
+    {
+        "predio_id": "PREDIO_0091",
+        "tamanho_m2": 404,
+        "preco_estimado": 3553702.49,
+        "quantidade_de_salas": 11,
+        "ano_construcao": "1989",
+        "descricao": "\"Excelente oportunidade para investir em um prédio comercial estratégico localizado no Distrito de Correia, Marçola, Maracanaú! Com uma área total de 404m² e 11 salas espaçosas, este imóvel é ideal para qualquer tipo de atividade comercial. Construído em 1989, apresenta um layout prático e fácil de ser adaptado às suas necessidades específicas. A sua localização privilegiada oferece fácil acesso a grandes centros comerciais e rodovias, tornando-o uma escolha valiosa para quem busca estabelecer seu negócio com sucesso.\"",
+        "responsavel": "Mariane Rocha",
+        "telefone": "+55 (77) 9 9475 2304"
+    },
+    {
+        "predio_id": "PREDIO_0092",
+        "tamanho_m2": 153,
+        "preco_estimado": 600279.18,
+        "quantidade_de_salas": 27,
+        "ano_construcao": "1994",
+        "descricao": "Está é uma oportunidade única para investir em um imóvel comercial estratégico e rentável! Localizado no Aeroporto Alves, São Benedito, Maracanaú - CE, este prédio de 153 m² oferece 27 salas ideais para desenvolver qualquer negócio. Construído há mais de vinte anos, este imóvel já tem uma estrutura consolidada e um potencial de crescimento muito alto. Com um preço competitivo de R$ 600,279.18, é um investimento que não pode ser perdido!",
+        "responsavel": "Srta. Nina Borges",
+        "telefone": "+55 (33) 9 9365 0220"
+    },
+    {
+        "predio_id": "PREDIO_0093",
+        "tamanho_m2": 216,
+        "preco_estimado": 1538892.39,
+        "quantidade_de_salas": 8,
+        "ano_construcao": "2024",
+        "descricao": "\"Oferecemos ao mercado um imóvel comercial de última geração localizado em Vereda de Pastor, Pompéia, Tianguá - CE. Com apenas um ano de construção, este prédio é uma oportunidade única para investir na área mais movimentada da cidade. Com 216m² de área total e 8 salas espaçosas, este imóvel é perfeito para empresas que buscam crescimento e expansão. Com um preço competitivo de R$1,538,892.39, não perca a chance de se tornar o proprietário desse imóvel empreendedor.\"",
+        "responsavel": "Amanda Silveira",
+        "telefone": "+55 (049) 94170-4381"
+    },
+    {
+        "predio_id": "PREDIO_0094",
+        "tamanho_m2": 1098,
+        "preco_estimado": 3385795.0,
+        "quantidade_de_salas": 13,
+        "ano_construcao": "1983",
+        "descricao": "Excelente oportunidade para investimentos ou expandir sua empresa! Este prédio comercial, localizado em uma área nobre da Colônia da Conceição, oferece um total de 13 salas espaciosa e bem iluminadas, com aproximadamente 1098 metros quadrados de área útil. Construído em 1983, este imóvel apresenta estrutura sólida e condições para receber qualquer tipo de negócios ou serviços. Com um preço de venda competitivo de R$ 3,385,795,00, é uma oportunidade valiosa para aqueles que buscam estabelecer ou expandir seu empreendimento na região.",
+        "responsavel": "Francisco Cardoso",
+        "telefone": "+55 95 99000 8864"
+    },
+    {
+        "predio_id": "PREDIO_0095",
+        "tamanho_m2": 1353,
+        "preco_estimado": 14519191.15,
+        "quantidade_de_salas": 19,
+        "ano_construcao": "2017",
+        "descricao": "\"Localizado em um dos principais trechos comerciais da Alta Tensão, este prédio comercial de classe A é um investimento imperdível! Com 1353 metros quadrados de área construída e 19 salas confortáveis, ele oferece uma oportunidade única para estabelecer sua marca em uma zona de alta visibilidade. Construído em 2017 com materiais de alta qualidade, este imóvel apresenta uma estrutura robusta e bem planejada, garantindo a segurança e o confort dos seus ocupantes. Valorizado em R$ 14.519.191,15, é um investimento que não pode ser esquecido!\"",
+        "responsavel": "Léo Araújo",
+        "telefone": "+55 (80) 9 1860-4125"
+    },
+    {
+        "predio_id": "PREDIO_0096",
+        "tamanho_m2": 1949,
+        "preco_estimado": 23466786.76,
+        "quantidade_de_salas": 25,
+        "ano_construcao": "1995",
+        "descricao": "Excelente oportunidade para investir em um dos mais conceituados prédios comerciais do Alto Das Antenas! Localizado no Lago Rodrigo Oliveira, número 73, este imóvel de 1949 m² apresenta uma estrutura sólida e bem conservada desde sua construção em 1995. Com 25 salas espaçosas e luminosas, é o local ideal para empresas que buscam um ambiente profissional e amplo para seus funcionários.",
+        "responsavel": "Gabriel Pires",
+        "telefone": "+55 (62) 9 5981 9785"
+    },
+    {
+        "predio_id": "PREDIO_0097",
+        "tamanho_m2": 1105,
+        "preco_estimado": 6186147.26,
+        "quantidade_de_salas": 40,
+        "ano_construcao": "1974",
+        "descricao": "Descubra o potencial imobiliário em pleno crescimento no Núcleo de Fonseca! Este prédio comercial, construído há mais de 45 anos, oferece um total de 40 salas distribuídas em 1105 metros quadrados, ideal para empresas que buscam um local estratégico e bem conectado. Com sua estrutura sólida e história, este imóvel é uma oportunidade única para quem deseja investir em um negócio próspero.",
+        "responsavel": "Lucas Gabriel das Neves",
+        "telefone": "+55 (066) 92669-3536"
+    },
+    {
+        "predio_id": "PREDIO_0098",
+        "tamanho_m2": 810,
+        "preco_estimado": 9176722.31,
+        "quantidade_de_salas": 6,
+        "ano_construcao": "1984",
+        "descricao": "Oportunidade única para investir em uma propriedade comercial estratégica localizada na Esplanada Gonçalves, Saudade, Caucaia! Este prédio de 810 m², construído em 1984, oferece seis salas únicas e espaçososas, perfeitas para atender às necessidades de qualquer negócio. Com um preço competitivo de R$ 9,176,722.31, este imóvel é uma oportunidade imperdível para quem procura uma base sólida para sua empresa ou inverter em um negócio rentável.",
+        "responsavel": "Juan Nogueira",
+        "telefone": "+55 (26) 93187-0617"
+    },
+    {
+        "predio_id": "PREDIO_0099",
+        "tamanho_m2": 1399,
+        "preco_estimado": 6609176.57,
+        "quantidade_de_salas": 47,
+        "ano_construcao": "1975",
+        "descricao": "\"Oferecemos ao mercado um prédio comercial emblemático localizado na prestigiosa Alameda Araújo, Minas Caixa, Quixadá. Com uma área útil de 1399m² e 47 salas, este imóvel é ideal para empresas que buscam espaços amplos e flexíveis. Construído em 1975, o prédio apresenta um charme único e uma estrutura robusta, tornando-o uma excelente opção para quem procura estabilidade e segurança. Com um preço de venda de R$ 6.609.176,57, este imóvel é uma oportunidade única para aqueles que buscam investir em um negócio próspero.\"",
+        "responsavel": "Benjamin Monteiro",
+        "telefone": "+55 53 9 8330 3186"
+    },
+    {
+        "predio_id": "PREDIO_0100",
+        "tamanho_m2": 1234,
+        "preco_estimado": 13445789.27,
+        "quantidade_de_salas": 36,
+        "ano_construcao": "1994",
+        "descricao": "\"Oportunidade única para investir em um imóvel comercial de grande porte! Localizado no loteamento Pedro Miguel Duarte, em Cardoso, Iguatu - CE, este prédio de 1234 m² reúne 36 salas, oferecendo uma área de trabalho eficiente e flexível. Comstruído em 1994, este imóvel apresenta uma estrutura sólida e confiável, ideal para empresas que buscam estabelecer sua presença no mercado local. Valorizado em R$ 13,445,789.27, este é um investimento de alta qualidade que não deve ser perdido!\"",
+        "responsavel": "Gael Henrique Mendonça",
+        "telefone": "+55 (27) 9 2791-0787"
+    }
+]
