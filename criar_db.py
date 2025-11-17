@@ -224,7 +224,8 @@ def vetorizar_chunks(chunks: List[Document]):
     db = Chroma.from_documents(
         chunks,
         embeddings_locais,
-        persist_directory=db_directory
+        persist_directory=db_directory,
+        collection_metadata={"hnsw:space": "cosine"}
     )
 
     print(f"Vetorização concluída! Banco de dados salvo em '{db_directory}'.")
