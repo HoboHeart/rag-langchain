@@ -1,0 +1,82 @@
+{
+    "Teste #1 (Esperado: SIM)": {
+        "pergunta": "Mostre prédios com mais de 8 salas.",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #2 (Esperado: SIM)": {
+        "pergunta": "Mostre prédios com mais de 29 salas.",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #3 (Esperado: SIM)": {
+        "pergunta": "Mostre prédios com mais de 42 salas.",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #4 (Esperado: SIM)": {
+        "pergunta": "Quais imóveis estão em Juazeiro do Norte?",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #5 (Esperado: SIM)": {
+        "pergunta": "Mostre prédios com mais de 47 salas.",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #6 (Esperado: SIM)": {
+        "pergunta": "Quais imóveis estão em Juazeiro do Norte?",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #7 (Esperado: SIM)": {
+        "pergunta": "Quais imóveis estão em Eusébio?",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #8 (Esperado: SIM)": {
+        "pergunta": "Mostre prédios com mais de 12 salas.",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #9 (Esperado: SIM)": {
+        "pergunta": "Mostre prédios com mais de 38 salas.",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #10 (Esperado: SIM)": {
+        "pergunta": "Quais imóveis estão em Pacatuba?",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #11 (Esperado: SIM)": {
+        "pergunta": "Quais imóveis estão em Sobral?",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #12 (Esperado: SIM)": {
+        "pergunta": "Quais imóveis estão em Maracanaú?",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #13 (Esperado: SIM)": {
+        "pergunta": "Quais imóveis estão em Quixeramobim?",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #14 (Esperado: SIM)": {
+        "pergunta": "Mostre prédios com mais de 25 salas.",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste #15 (Esperado: SIM)": {
+        "pergunta": "Quais imóveis estão em Itapipoca?",
+        "expectativa": "ENCONTRADO"
+    },
+    "Teste Negativo #1 (Esperado: NÃO)": {
+        "pergunta": "Você tem algum prédio com mais de 5000 salas?",
+        "expectativa": "NAO_ENCONTRADO"
+    },
+    "Teste Negativo #2 (Esperado: NÃO)": {
+        "pergunta": "Quero comprar um prédio em Terra Média.",
+        "expectativa": "NAO_ENCONTRADO"
+    },
+    "Teste Negativo #3 (Esperado: NÃO)": {
+        "pergunta": "Quero comprar um prédio em Gotham City.",
+        "expectativa": "NAO_ENCONTRADO"
+    },
+    "Teste Negativo #4 (Esperado: NÃO)": {
+        "pergunta": "Procuro um prédio comercial por menos de R$ 100,00.",
+        "expectativa": "NAO_ENCONTRADO"
+    },
+    "Teste Negativo #5 (Esperado: NÃO)": {
+        "pergunta": "Procuro um prédio comercial por menos de R$ 100,00.",
+        "expectativa": "NAO_ENCONTRADO"
+    }
+}

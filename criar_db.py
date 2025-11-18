@@ -68,7 +68,7 @@ def carregar_documentos_csv() -> List[Document]:
     #Carrega documentos do arquivo CSV com controle de conteúdo e metadados.
 
     colunas_conteudo = ["endereco", "bairro", "cidade"]
-    colunas_metadata = ["predio_id", "cep", "estado"]
+    colunas_metadata = ["predio_id", "cep", "estado", "cidade", "bairro", "endereco"]
 
     try:
         carregador_csv = CSVLoader(
@@ -110,73 +110,65 @@ def carregar_documentos():
     return documentos_totais
 
 def unificar_documentos(documentos: List[Document]) -> List[Document]:
-    """
-    Combina os documentos CSV e JSON usando o 'predio_id' como chave.
-    Cria um 'page_content' rico (Ficha Técnica) para a busca.
-    """
     print(f"\nIniciando a Unificação de {len(documentos)} documentos...")
 
-    # 1. Separando os documentos por fonte e indexando pelo predio_id
     docs_csv = {}
     docs_json = {}
 
     for doc in documentos:
         predio_id = doc.metadata.get("source")
-        if not predio_id:
-            continue
+        if not predio_id: continue
         
+        # Lógica de separação (mantemos igual)
         if "tamanho_m2" in doc.metadata:
             docs_json[predio_id] = doc
-        elif "cep" in doc.metadata:
+        elif "cep" in doc.metadata: 
             docs_csv[predio_id] = doc
     
-    # 2. Criando a lista final de documentos unificados
     documentos_unificados = []
 
-    # Iterando pelos prédios que temos no CSV
     for predio_id, doc_csv in docs_csv.items():
         doc_json = docs_json.get(predio_id)
-        
-        if not doc_json:
-            print(f"Aviso: Prédio {predio_id} do CSV não encontrado no JSON")
-            continue
+        if not doc_json: continue
 
-        # --- CORREÇÃO DA LÓGICA DE COLETA ---
-
-        # 3. Unifica todos os METADADOS primeiro
+        # --- 1. Unifica Metadados (Agora inclui CIDADE, BAIRRO do CSV!) ---
         metadata_final = doc_csv.metadata.copy()
         metadata_final.update(doc_json.metadata)
 
-        # 4. Pega os dados dos locais corretos:
+        # --- 2. Extração de Dados ---
+        # Agora podemos pegar cidade e bairro direto dos metadados com segurança
+        cidade = metadata_final.get("cidade", "Desconhecida")
+        bairro = metadata_final.get("bairro", "Desconhecido")
+        endereco = metadata_final.get("endereco", "Endereço não informado")
+        estado = metadata_final.get("estado", "CE")
         
-        # 'endereco' VEM DO page_content DO DOCUMENTO CSV
-        endereco = doc_csv.page_content 
-        
-        # 'descricao' VEM DO page_content DO DOCUMENTO JSON
-        descricao = doc_json.page_content 
-        
-        # O resto VEM DOS METADADOS unificados
+        # Dados do JSON
         ano = metadata_final.get('ano_construcao', 'N/A')
         tamanho = metadata_final.get('tamanho_m2', 'N/A')
         salas = metadata_final.get('quantidade_de_salas', 'N/A')
         preco = metadata_final.get('preco_estimado', 0)
+        
+        # Descrição vem do JSON (mas agora buscamos nos metadados pois a IA gerou lá)
+        # Ou do page_content do JSON se você não salvou no metadata antes. 
+        # Vamos garantir:
+        descricao = doc_json.page_content 
 
-        # 5. CRIA O NOVO PAGE_CONTENT (A "Ficha Técnica")
+        # --- 3. Criar a Ficha Técnica (Page Content) ---
         page_content_final = f"""
 Ficha do Prédio: {predio_id}
-Localização: {endereco.replace("\n", ", ")}
+Localização: {endereco}, {bairro}, {cidade} - {estado}
 Ano de Construção: {ano}
 Tamanho: {tamanho} m²
 Quantidade de Salas: {salas}
 Preço Estimado: R$ {preco:,.2f}
 Descrição: {descricao}
 """
-        # 6. (Opcional, mas bom) Adiciona a descrição e endereço
-        #    também aos metadados para referência
-        metadata_final["endereco_completo"] = endereco
+        # ATUALIZAÇÃO CRÍTICA DOS METADADOS FINAIS
+        # Garantimos que 'cidade' está limpa e pronta para o filtro
+        metadata_final["cidade"] = cidade
+        metadata_final["bairro"] = bairro
         metadata_final["descricao"] = descricao
 
-        # 7. Cria o novo documento unificado
         documentos_unificados.append(
             Document(
                 page_content=page_content_final,
@@ -184,7 +176,7 @@ Descrição: {descricao}
             )
         )
 
-    print(f"Tudo Certo! {len(documentos_unificados)} documentos unificados criados.")
+    print(f"Tudo Certo! {len(documentos_unificados)} documentos unificados.")
     return documentos_unificados
 
 def dividir_chunks(documentos):
