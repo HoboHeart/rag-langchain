@@ -8,7 +8,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import Ollama
 from langchain_core.prompts import PromptTemplate
 
-st.set_page_config(page_title="Chat Imobiliário (Stateless)", page_icon="🏢")
+st.set_page_config(page_title="Chat Imobiliário", page_icon="🏢")
 
 CAMINHO_DB = "db"
 
@@ -28,63 +28,59 @@ def carregar_sistema():
     # 2. Banco de Dados
     if not os.path.exists(CAMINHO_DB):
         st.error(f"Pasta '{CAMINHO_DB}' não encontrada!")
-        return None, None, None
+        return None, None, None, None
         
     db = Chroma(persist_directory=CAMINHO_DB, embedding_function=embedder)
 
     # 3. LLMs
-        
-    # LLM 1: Extrator de Filtros (JSON)
+    # LLM 1: Reformulador 
+    llm_reformulador = Ollama(model="llama3", temperature=0.1)
+    
+    # LLM 2: Extrator de Filtros (Formato JSON)
     llm_filtro = Ollama(model="llama3", temperature=0, format="json")
     
-    # LLM 2: Resposta Final
+    # LLM 3: Resposta Final
     llm_resposta = Ollama(model="llama3", temperature=0.7)
 
-    return db, llm_filtro, llm_resposta
+    return db, llm_reformulador, llm_filtro, llm_resposta
 
-# --- Função de Lógica (Extração de Filtros Manual - COM DESCRIÇÕES RICAS) ---
-# --- Adicione esta função auxiliar ---
-# --- Função Auxiliar para Sintaxe do Chroma (Mantém essa) ---
-def corrigir_sintaxe_chroma(filtros):
+# --- Função de Memória (Reformulação) ---
+def reformular_pergunta(pergunta_atual, historico_mensagens, llm):
+    """Reescreve a pergunta baseada no contexto anterior."""
+    if len(historico_mensagens) < 2:
+        return pergunta_atual
+
+    # Pega as últimas 4 mensagens para contexto
+    historico_texto = ""
+    for msg in historico_mensagens[-4:]:
+        role = "Human" if msg["usuario"] == "user" else "AI"
+        historico_texto += f"{role}: {msg['texto']}\n"
+
+    template = """
+    Reformule a 'Pergunta Atual' para que ela seja completa e independente, baseada no 'Histórico'.
+    Substitua pronomes (ele, dela, lá) pelos nomes reais (cidade, prédio) mencionados antes.
+    Retorne APENAS a pergunta reformulada em Português. Nada mais.
+
+    Histórico:
+    {historico}
+
+    Pergunta Atual: {pergunta}
     """
-    Corrige limitações de sintaxe do ChromaDB.
-    1. Transforma intervalos (ex: {$gte: A, $lte: B}) em lista $and.
-    2. Garante que múltiplos filtros usem $and explícito.
-    """
-    lista_condicoes = []
+    try:
+        nova_pergunta = llm.invoke(template.format(historico=historico_texto, pergunta=pergunta_atual))
+        return nova_pergunta.strip()
+    except:
+        return pergunta_atual
 
-    for campo, criterio in filtros.items():
-        # Verifica se o critério é um dicionário com múltiplos operadores (ex: Range de Preço)
-        if isinstance(criterio, dict) and len(criterio) > 1:
-            # Explode: {'$gte': 10, '$lte': 20} vira [{'campo': {'$gte': 10}}, {'campo': {'$lte': 20}}]
-            for operador, valor in criterio.items():
-                lista_condicoes.append({campo: {operador: valor}})
-        else:
-            # Caso simples (Igualdade ou apenas um operador)
-            lista_condicoes.append({campo: criterio})
-
-    # Se houver mais de uma condição (seja por múltiplos campos ou range), usa $and
-    if len(lista_condicoes) > 1:
-        return {"$and": lista_condicoes}
-    elif len(lista_condicoes) == 1:
-        return lista_condicoes[0]
-    else:
-        return {}
-
-# --- Função Principal de Filtros (Versão Completa) ---
+# --- Função de Lógica (Extração de Filtros Manual) ---
 def extrair_filtros(pergunta, llm):
-    """
-    Extrai filtros JSON combinando:
-    1. Schema rico (para entender o significado dos campos).
-    2. Lógica avançada (para lidar com aproximações, sufixos 'k/mi' e tempo).
-    """
+    """Extrai filtros JSON manualmente com descrições ricas dos campos."""
     
     template = """
-    Você é um especialista em banco de dados e normalização de dados.
-    Analise a pergunta e transforme em filtros de busca estruturados (JSON).
+    Você é um especialista em banco de dados. Sua tarefa é analisar a pergunta do usuário e transformar em filtros de busca estruturados (JSON).
     Retorne APENAS o JSON. Não explique nada.
     
-    SCHEMA DOS DADOS (Use estas definições para entender o contexto):
+    SCHEMA DOS DADOS (Campos que você pode usar):
     
     - cidade (string): A cidade onde o prédio está localizado (ex: "Caucaia", "Fortaleza").
     - bairro (string): O nome do bairro (ex: "Centro", "Aldeota", "Jardim").
@@ -95,85 +91,48 @@ def extrair_filtros(pergunta, llm):
     - quantidade_de_salas (int): Número total de salas/escritórios. Use operadores de comparação.
     - tamanho_m2 (int): Área total do imóvel em metros quadrados.
     - preco_estimado (float): Valor de venda do imóvel em Reais.
-    - - ano_construcao (int): O ano de construção. Note que é um int no banco. Trate ano como NÚMERO (ex: 2010), não string.
+    - ano_construcao (string): O ano de construção. Note que é uma string no banco.
 
-    ---------------------------------------------------------
-    REGRAS DE LÓGICA AVANÇADA (Siga estritamente):
-    ---------------------------------------------------------
+    SINTAXE DE OPERADORES (MongoDB Style):
+    - Igualdade: "campo": "valor"
+    - Maior que: "campo": {{ "$gt": 10 }}
+    - Menor que: "campo": {{ "$lt": 500000 }}
+    - Maior ou igual: "campo": {{ "$gte": 2020 }}
+    - Menor ou igual: "campo": {{ "$lte": 100 }}
 
-    1. VALORES APROXIMADOS ("Por volta de", "Cerca de", "Na faixa de"):
-       - NUNCA use igualdade para valores aproximados.
-       - Crie um intervalo de -20% e +20%.
-       - Ex: "Por volta de 1000" -> {{ "$gte": 800, "$lte": 1200 }}
-       - Ex: "Uns 2 milhões" -> {{ "$gte": 1600000, "$lte": 2400000 }}
-
-    2. ABREVIAÇÕES NUMÉRICAS:
-       - Converta texto para número puro.
-       - "k" = mil (ex: 500k -> 500000)
-       - "mi", "milhão", "milhões" = 10^6 (ex: 2mi -> 2000000)
-
-    3. CONCEITOS TEMPORAIS ("Novo", "Recente", "Antigo"):
-       - "Novo" ou "Recente" -> ano_construcao >= "2020"
-       - "Antigo" -> ano_construcao <= "2010"
-       - "Anos 90" -> ano_construcao >= "1990" e <= "1999"
-
-    4. SUPERLATIVOS ("O mais barato", "O maior"):
-       - NÃO gere filtro de valor para o campo superlativo. Deixe vazio ou filtre apenas a cidade.
-       - Ex: "O mais barato de Caucaia" -> {{ "cidade": "Caucaia" }} (Sem filtro de preço).
-
-    ---------------------------------------------------------
-    EXEMPLOS (Few-Shot):
-
-    User: "Prédios em Itapipoca com mais de 10 salas"
+    EXEMPLOS DE "SHOTS":
+    
+    User: "Prédios em Itapipoca acima de 10 salas"
     AI: {{ "cidade": "Itapipoca", "quantidade_de_salas": {{ "$gt": 10 }} }}
 
-    User: "Imóvel no bairro Centro que custe por volta de 2 milhões"
-    AI: {{ "bairro": "Centro", "preco_estimado": {{ "$gte": 1600000, "$lte": 2400000 }} }}
+    User: "Imóvel no bairro Centro que custe menos de 1 milhão"
+    AI: {{ "bairro": "Centro", "preco_estimado": {{ "$lt": 1000000 }} }}
 
     User: "Qual o prédio do CEP 93260-708?"
     AI: {{ "cep": "93260-708" }}
 
-    User: "Prédios novos acima de 500m2"
-    AI: {{ "ano_construcao": {{ "$gte": "2020" }}, "tamanho_m2": {{ "$gt": 500 }} }}
+    User: "Prédios construídos depois de 2010"
+    AI: {{ "ano_construcao": {{ "$gt": "2010" }} }}
 
     Pergunta Atual: {pergunta}
     JSON:
     """
     try:
         json_str = llm.invoke(template.format(pergunta=pergunta))
+        # Tenta limpar caso o LLM coloque markdown (```json ... ```)
         json_str = json_str.replace("```json", "").replace("```", "").strip()
         
         filtros = json.loads(json_str)
-        filtros_limpos = {k: v for k, v in filtros.items() if v}
-                
-        campos_inteiros = ["ano_construcao", "quantidade_de_salas", "tamanho_m2"]
-        
-        for campo in campos_inteiros:
-            if campo in filtros_limpos:
-                valor = filtros_limpos[campo]
-                
-                # Caso 1: Filtro simples (ex: "ano_construcao": "2010")
-                if isinstance(valor, (str, float)):
-                    filtros_limpos[campo] = int(valor)
-                    
-                # Caso 2: Filtro com operador (ex: "ano_construcao": {"$gt": "2010"})
-                elif isinstance(valor, dict):
-                    for op, v in valor.items():
-                        # Converte o valor dentro do operador para int
-                        filtros_limpos[campo][op] = int(v)
-        # ---------------------------------------
-
-        return corrigir_sintaxe_chroma(filtros_limpos)
-        
+        return {k: v for k, v in filtros.items() if v}
     except Exception as e:
         print(f"Erro ao extrair filtro: {e}")
         return {}
 
-# --- 3. Interface Streamlit ---
+# --- 4. Interface Streamlit ---
 def app():
     st.header("🏢 Imobiliária Inteligente", divider=True)
 
-    db, llm_filtro, llm_resposta = carregar_sistema()
+    db, llm_reformulador, llm_filtro, llm_resposta = carregar_sistema()
     
     if not db:
         st.stop()
@@ -198,25 +157,28 @@ def app():
         with st.chat_message("assistant", avatar="🤖"):
             placeholder = st.empty()
             
-            # --- STATUS VISUAL ---
+            # Status visual
             status = st.status("Processando...", expanded=True)
             
             try:
-                # PASSO 1: Filtros (Direto da Pergunta Original)
+                # PASSO 1: Reformulação (Memória)
+                status.write("🧠 Lendo histórico...")
+                historico_atual = st.session_state["mensagens"][:-1]
+                pergunta_final = reformular_pergunta(mensagem_usuario, historico_atual, llm_reformulador)
+                status.write(f"**Entendido:** {pergunta_final}")
+
+                # PASSO 2: Filtros (Lógica)
                 status.write("🔍 Identificando critérios...")
-                
-                
-                filtros = extrair_filtros(mensagem_usuario, llm_filtro)
-                
+                filtros = extrair_filtros(pergunta_final, llm_filtro)
                 if filtros:
                     status.write(f"**Filtros:** {filtros}")
                 else:
                     status.write("**Busca Semântica:** (Sem filtros exatos)")
 
-                # PASSO 2: Busca (Chroma)
+                # PASSO 3: Busca (Chroma)
                 status.write("📂 Consultando banco de dados...")
                 docs = db.similarity_search(
-                    mensagem_usuario, # Usa a pergunta original
+                    pergunta_final, 
                     k=4, 
                     filter=filtros if filtros else None
                 )
@@ -225,7 +187,7 @@ def app():
                     texto_resposta = "Não encontrei imóveis correspondentes a esses critérios específicos."
                     status.update(label="Sem resultados", state="error")
                 else:
-                    # PASSO 3: Resposta (Geração)
+                    # PASSO 4: Resposta (Geração)
                     status.write("✍️ Escrevendo resposta...")
                     contexto = "\n\n".join([d.page_content for d in docs])
                     
@@ -234,15 +196,19 @@ def app():
                     
                     Imóveis Encontrados:
                     {context}
+
+                    Histórico da Conversa:
+                    {pergunta_original}
                     
-                    Pergunta do Usuário: {pergunta_original}
+                    Pergunta Final: {pergunta_reformulada}
                     
                     Responda de forma natural:
                     """
                     
                     chain_input = {
                         "context": contexto, 
-                        "pergunta_original": mensagem_usuario
+                        "pergunta_original": mensagem_usuario,
+                        "pergunta_reformulada": pergunta_final
                     }
                     
                     texto_resposta = llm_resposta.invoke(template_resp.format(**chain_input))

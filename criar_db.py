@@ -147,6 +147,16 @@ def unificar_documentos(documentos: List[Document]) -> List[Document]:
         tamanho = metadata_final.get('tamanho_m2', 'N/A')
         salas = metadata_final.get('quantidade_de_salas', 'N/A')
         preco = metadata_final.get('preco_estimado', 0)
+
+        ano_bruto = metadata_final.get('ano_construcao', '0')
+        try:
+            # Força a conversão de String para Inteiro
+            ano_int = int(ano_bruto)
+        except (ValueError, TypeError):
+            ano_int = 0
+
+        # Atualiza o dicionário de metadados para o ChromaDB entender que é número
+        metadata_final['ano_construcao'] = ano_int
         
         # Descrição vem do JSON (mas agora buscamos nos metadados pois a IA gerou lá)
         # Ou do page_content do JSON se você não salvou no metadata antes. 
