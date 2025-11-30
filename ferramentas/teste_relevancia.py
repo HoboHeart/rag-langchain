@@ -11,8 +11,10 @@ from langchain_core.prompts import PromptTemplate
 from langchain_classic.retrievers import SelfQueryRetriever
 from langchain_classic.chains.query_constructor.base import AttributeInfo
 
-CAMINHO_DB = "db"
-ARQUIVO_TESTES = "perguntas_auto.json"
+DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
+RAIZ_PROJETO = os.path.dirname(DIRETORIO_ATUAL)
+CAMINHO_DB = os.path.join(RAIZ_PROJETO, "db")
+ARQUIVO_TESTES = os.path.join(DIRETORIO_ATUAL, "perguntas_auto.json")
 MODELO_LLM = "llama3" # O modelo que você está usando no Ollama
 
 # Metadados que o LLM precisa para criar filtros

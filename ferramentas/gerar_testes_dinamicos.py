@@ -3,7 +3,9 @@ import csv
 import os
 import random
 
-PASTA_BASE = "base"
+DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
+RAIZ_PROJETO = os.path.dirname(DIRETORIO_ATUAL)
+PASTA_BASE = os.path.join(RAIZ_PROJETO, "base")
 ARQUIVO_CSV = os.path.join(PASTA_BASE, "base_1_locacoes.csv")
 ARQUIVO_JSON = os.path.join(PASTA_BASE, "base_2_detalhes_predios_V2.json")
 
