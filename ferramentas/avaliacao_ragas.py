@@ -149,21 +149,23 @@ def gerar_resposta_rag(pergunta, db, llm_filtro, llm_resposta):
 def rodar_avaliacao_ragas():
     print("🚀 Iniciando Avaliação com RAGAS...")
     
-    # --- Configuração dos Wrappers (A CORREÇÃO ESTÁ AQUI) ---
+    # --- A MUDANÇA ESTÁ AQUI ---
     print("Carregando modelos...")
     
-    # 1. LLM Wrapper
-    ollama_model = Ollama(model="llama3", temperature=0)
-    ragas_llm = LangchainLLMWrapper(ollama_model) 
+    # 1. JUIZ (O Avaliador) -> Usamos o Gemma 2 (Google)
+    # Temperatura 0 é crucial para ele ser rigoroso e consistente
+    llm_juiz_ollama = Ollama(model="gemma2", temperature=0) 
+    ragas_llm = LangchainLLMWrapper(llm_juiz_ollama) 
     
-    # 2. Embeddings Wrapper
+    # 2. Embeddings (Mantemos o mesmo para consistência vetorial)
     langchain_embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
         encode_kwargs={'normalize_embeddings': True}
     )
     ragas_embeddings = LangchainEmbeddingsWrapper(langchain_embeddings)
     
-    # --- Configuração do RAG do Projeto ---
+    # --- SISTEMA A SER AVALIADO (O Aluno) -> Mantemos o Llama 3 ---
+    # Nota: Aqui NÃO mudamos nada, pois queremos testar o SEU sistema atual
     db = Chroma(persist_directory=CAMINHO_DB, embedding_function=langchain_embeddings)
     llm_filtro = Ollama(model="llama3", temperature=0, format="json")
     llm_resposta = Ollama(model="llama3", temperature=0.7)

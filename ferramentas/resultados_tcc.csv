@@ -1,0 +1,20 @@
+Teste,Pergunta,Filtros_JSON,Docs_Retornados,Esperado,Predito,Acertou
+1. Filtro Simples (Cidade),Quais imóveis estão em Sobral?,{'cidade': 'Sobral'},4,1,1,True
+2. Filtro Numérico (Salas),Mostre prédios com mais de 40 salas.,{'quantidade_de_salas': {'$gt': 40}},4,1,1,True
+3. Filtro Combinado (Cidade + Salas),Quero um prédio em Juazeiro do Norte com mais de 10 salas.,"{'$and': [{'cidade': 'Juazeiro do Norte'}, {'quantidade_de_salas': {'$gt': 10}}]}",4,1,1,True
+4. Filtro Específico (Bairro),Imóveis no bairro Centro.,{'bairro': 'Centro'},2,1,1,True
+5. Filtro Exato (CEP),Qual o prédio com CEP 33187-824?,{'cep': '33187-824'},1,1,0,False
+6. Filtro Duplo (Cidade + Bairro),Prédios no bairro Centro em Fortaleza.,"{'$and': [{'bairro': 'Centro'}, {'cidade': 'Fortaleza'}]}",2,1,1,True
+7. Lógica de Sufixo 'k' (Preço),Prédios abaixo de 800k reais.,{'preco_estimado': {'$lt': 800000}},1,1,1,True
+8. Lógica de Sufixo 'mi' (Preço),Mostre opções acima de 5mi.,{'ano_construcao': {'$gte': 60000000}},0,1,0,False
+9. Lógica de Data (Ano Int),Prédios construídos depois de 2015.,{'ano_construcao': {'$gte': 2016}},4,1,1,True
+10. Lógica de Aproximação (Range),Algo por volta de 50 salas.,"{'$and': [{'quantidade_de_salas': {'$gte': 40}}, {'quantidade_de_salas': {'$lte': 60}}]}",4,1,0,False
+11. Teste de Stress (Complexo),"Prédio em Fortaleza, recente (depois de 2010) e com mais de 20 salas.","{'$and': [{'cidade': 'Fortaleza'}, {'ano_construcao': {'$gte': 2010}}, {'quantidade_de_salas': {'$gt': 20}}]}",2,1,1,True
+12. Busca Semântica (Subjetiva - Corporativo),Gostaria de um lugar grande ideal para uma sede corporativa.,"{'$and': [{'cidade': {'$regex': 'Caucaia|Fortaleza'}}, {'tamanho_m2': {'$gt': 500}}]}",0,1,0,False
+13. Busca Semântica (Subjetiva - Econômico),Estou buscando opções de prédios baratas para iniciar meu negócio.,"{'$and': [{'quantidade_de_salas': {'$lt': 5}}, {'preco_estimado': {'$lt': 500000}}]}",0,1,0,False
+14. Busca Semântica (Descritiva - Moderno),Quero um prédio com arquitetura moderna e fachada de vidro.,"{'$and': [{'cidade': {'$regex': '.*modern.*'}}, {'cidade': {'$options': 'i'}}, {'endereco': {'$regex': '.*vidro.*'}}, {'endereco': {'$options': 'i'}}]}",0,1,0,False
+15. Busca Semântica (Descritiva - Espaçoso),Preciso de um ambiente muito espaçoso com uma área ampla.,{'tamanho_m2': {'$gt': 1000}},4,1,1,True
+16. Busca Semântica (Investimento),Quais são as melhores oportunidades de custo benefício?,"{'$and': [{'quantidade_de_salas': {'$gt': 0}}, {'tamanho_m2': {'$gt': 0}}, {'preco_estimado': {'$lt': 1000000}}]}",1,1,0,False
+Negativo 1 (Cidade Inexistente),Imóveis em Gotham City.,{'cidade': {'$eq': 'Gotham City'}},0,0,0,True
+Negativo 2 (Preço Irreal),Prédio por menos de 10 reais.,{'preco_estimado': {'$lt': 10}},0,0,0,True
+Negativo 3 (Exagero de Salas),Prédio com mais de 50000 salas.,{'quantidade_de_salas': {'$gt': 50000}},0,0,0,True
