@@ -8,7 +8,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import Ollama
 from langchain_core.prompts import PromptTemplate
 
-st.set_page_config(page_title="Chat Imobiliário (Stateless)", page_icon="🏢")
+st.set_page_config(page_title="Chat Imobiliário (Smart Router)", page_icon="🏢")
 
 CAMINHO_DB = "db"
 
@@ -33,37 +33,119 @@ def carregar_sistema():
     db = Chroma(persist_directory=CAMINHO_DB, embedding_function=embedder)
 
     # 3. LLMs
-        
-    # LLM 1: Extrator de Filtros (JSON)
+    # LLM 1: Reformulador (O Cérebro da Memória)
+    llm_reformulador = Ollama(model="llama3", temperature=0)
+
+    # LLM 2: Extrator de Filtros (JSON)
     llm_filtro = Ollama(model="llama3", temperature=0, format="json")
     
-    # LLM 2: Resposta Final
+    # LLM 3: Resposta Final
     llm_resposta = Ollama(model="llama3", temperature=0.7)
 
-    return db, llm_filtro, llm_resposta
+    return db, llm_reformulador, llm_filtro, llm_resposta
+
+def reformular_pergunta(pergunta_atual, historico_mensagens, llm):
+    """
+    Reescreve a pergunta.
+    CORREÇÃO: Agora detecta mudança de assunto para não misturar filtros antigos.
+    """
+    if len(historico_mensagens) < 2:
+        return pergunta_atual
+
+    historico_texto = ""
+    for msg in historico_mensagens[-4:]: 
+        role = "Human" if msg["usuario"] == "user" else "AI"
+        historico_texto += f"{role}: {msg['texto']}\n"
+
+    template = """
+    Aja como um interpretador de intenção. 
+    Reescreva a 'Pergunta Atual' para torná-la independente, usando o histórico APENAS SE NECESSÁRIO.
+
+    REGRAS OBRIGATÓRIAS:
+    1. RESOLUÇÃO DE PRONOMES: Se o usuário usar "ele", "dela", "o mais barato", "o primeiro", substitua pelo sujeito do histórico.
+    
+    2. MUDANÇA DE TÓPICO (CRÍTICO): 
+       - Se a 'Pergunta Atual' menciona uma NOVA LOCALIZAÇÃO (Cidade/Bairro) diferente do histórico, IGNORE a localização antiga.
+       - Exemplo: Histórico="Em Sobral" -> Pergunta="E em Fortaleza?" -> Saída="Quais imóveis em Fortaleza?" (NÃO misture as cidades).
+       
+    3. MUDANÇA DE CARACTERÍSTICA:
+       - Se o usuário mudar o filtro (ex: "Agora com 3 quartos"), mantenha a cidade mas atualize os quartos.
+
+    Histórico:
+    {historico}
+
+    Pergunta Atual: {pergunta}
+    
+    Pergunta Reescrita (em Português):
+    """
+    
+    try:
+        # Temperatura 0 ajuda, mas o prompt explícito é o que resolve.
+        return llm.invoke(template.format(historico=historico_texto, pergunta=pergunta_atual)).strip()
+    except:
+        return pergunta_atual
+
+def classificar_intencao(pergunta_reformulada, llm):
+    """
+    Decide se o usuário quer buscar novos dados (NOVA_BUSCA) 
+    ou analisar o que já foi mostrado (ANALISE_CONTEXTO).
+    """
+    template = """
+    Analise a pergunta do usuário: "{pergunta}"
+    
+    Classifique a intenção em APENAS UMA das opções abaixo:
+    
+    1. "NOVA_BUSCA": Se o usuário quer filtrar, mudar de cidade, ver outros imóveis ou buscar algo novo. 
+       (Ex: "Mostre em Sobral", "Quero com 3 quartos", "Tem piscina?", "Busque outros").
+       
+    2. "ANALISE_CONTEXTO": Se o usuário está pedindo uma comparação, ordenação, resumo ou detalhe sobre os imóveis JÁ listados na resposta anterior. 
+       (Ex: "Qual desses é o mais barato?", "O primeiro é novo?", "Qual o maior deles?", "Me fale mais sobre o segundo").
+    
+    Responda APENAS a palavra-chave (NOVA_BUSCA ou ANALISE_CONTEXTO).
+    """
+    try:
+        # Usamos o llm_reformulador (temp=0) pois ele é rápido e preciso
+        decisao = llm.invoke(template.format(pergunta=pergunta_reformulada))
+        decisao = decisao.strip().upper()
+        # Tratamento de erro básico caso o LLM fale frases inteiras
+        if "ANALISE" in decisao or "CONTEXTO" in decisao:
+            return "ANALISE_CONTEXTO"
+        return "NOVA_BUSCA"
+    except:
+        return "NOVA_BUSCA" # Na dúvida, vai no banco.
 
 # --- Função de Lógica (Extração de Filtros Manual - COM DESCRIÇÕES RICAS) ---
-# --- Adicione esta função auxiliar ---
 # --- Função Auxiliar para Sintaxe do Chroma (Mantém essa) ---
 def corrigir_sintaxe_chroma(filtros):
     """
-    Corrige limitações de sintaxe do ChromaDB.
-    1. Transforma intervalos (ex: {$gte: A, $lte: B}) em lista $and.
-    2. Garante que múltiplos filtros usem $and explícito.
+    Corrige limitações do ChromaDB e remove operadores alucinados (ex: $min, $max).
     """
+    # Lista oficial de operadores suportados pelo ChromaDB
+    OPERADORES_VALIDOS = ["$gt", "$gte", "$lt", "$lte", "$ne", "$eq", "$in", "$nin"]
+    
     lista_condicoes = []
 
     for campo, criterio in filtros.items():
-        # Verifica se o critério é um dicionário com múltiplos operadores (ex: Range de Preço)
-        if isinstance(criterio, dict) and len(criterio) > 1:
-            # Explode: {'$gte': 10, '$lte': 20} vira [{'campo': {'$gte': 10}}, {'campo': {'$lte': 20}}]
-            for operador, valor in criterio.items():
-                lista_condicoes.append({campo: {operador: valor}})
+        # Caso 1: Critério é um dicionário (ex: {"$gte": 100})
+        if isinstance(criterio, dict):
+            # Filtra apenas os operadores que existem no Chroma
+            criterio_limpo = {op: val for op, val in criterio.items() if op in OPERADORES_VALIDOS}
+            
+            # Se sobrou algo válido, processa
+            if criterio_limpo:
+                # Se tiver mais de um operador válido (Range), explode em lista
+                if len(criterio_limpo) > 1:
+                    for op, val in criterio_limpo.items():
+                        lista_condicoes.append({campo: {op: val}})
+                else:
+                    # Se for só um, adiciona direto
+                    lista_condicoes.append({campo: criterio_limpo})
+        
+        # Caso 2: Critério é valor direto (Igualdade implícita)
         else:
-            # Caso simples (Igualdade ou apenas um operador)
             lista_condicoes.append({campo: criterio})
 
-    # Se houver mais de uma condição (seja por múltiplos campos ou range), usa $and
+    # Monta a estrutura final
     if len(lista_condicoes) > 1:
         return {"$and": lista_condicoes}
     elif len(lista_condicoes) == 1:
@@ -86,6 +168,7 @@ def extrair_filtros(pergunta, llm):
     
     SCHEMA DOS DADOS (Use estas definições para entender o contexto):
     
+    - predio_id (string): O código único do imóvel (ex: "PREDIO_0001").
     - cidade (string): A cidade onde o prédio está localizado (ex: "Caucaia", "Fortaleza").
     - bairro (string): O nome do bairro (ex: "Centro", "Aldeota", "Jardim").
     - estado (string): A sigla do estado, use sempre maiúsculo (ex: "CE", "SP").
@@ -98,28 +181,37 @@ def extrair_filtros(pergunta, llm):
     - - ano_construcao (int): O ano de construção. Note que é um int no banco. Trate ano como NÚMERO (ex: 2010), não string.
 
     ---------------------------------------------------------
-    REGRAS DE LÓGICA AVANÇADA (Siga estritamente):
+    REGRAS DE LÓGICA AVANÇADA (Siga estritamente NA ORDEM):
     ---------------------------------------------------------
+    1. ID ESPECÍFICO:
+       - Se o usuário citar um código/ID (ex: "PREDIO_0025"), filtre APENAS pelo predio_id e ignore o resto.
 
-    1. VALORES APROXIMADOS ("Por volta de", "Cerca de", "Na faixa de"):
+    2. SUPERLATIVOS ("O mais barato", "O maior", "O mais recente"):
+       - Prioridade MÁXIMA. Se for uma pergunta de ordenação ("Qual é o mais..."), PARE.
+       - NÃO gere filtro de valor numérico para o campo perguntado. Deixe vazio ou filtre apenas a cidade.
+       - Ex: "O mais barato de Caucaia" -> {{ "cidade": "Caucaia" }} (Sem filtro de preço).
+       - Ex: "Qual o mais recente?" -> {{ }} (Sem filtro de ano).
+
+    3. VALORES APROXIMADOS ("Por volta de", "Cerca de", "Na faixa de"):
        - NUNCA use igualdade para valores aproximados.
        - Crie um intervalo de -20% e +20%.
        - Ex: "Por volta de 1000" -> {{ "$gte": 800, "$lte": 1200 }}
        - Ex: "Uns 2 milhões" -> {{ "$gte": 1600000, "$lte": 2400000 }}
 
-    2. ABREVIAÇÕES NUMÉRICAS:
+    4. ABREVIAÇÕES NUMÉRICAS:
        - Converta texto para número puro.
        - "k" = mil (ex: 500k -> 500000)
        - "mi", "milhão", "milhões" = 10^6 (ex: 2mi -> 2000000)
 
-    3. CONCEITOS TEMPORAIS ("Novo", "Recente", "Antigo"):
-       - "Novo" ou "Recente" -> ano_construcao >= "2020"
-       - "Antigo" -> ano_construcao <= "2010"
-       - "Anos 90" -> ano_construcao >= "1990" e <= "1999"
+    5. CONCEITOS TEMPORAIS ("Novo", "Recente", "Antigo"):
+       - APLIQUE APENAS SE NÃO FOR SUPERLATIVO (Veja Regra 1).
+       - Se for busca genérica:
+       - "Novo" ou "Recente" -> ano_construcao >= 2020
+       - "Antigo" -> ano_construcao <= 2010
+       - "Anos 90" -> ano_construcao >= 1990 e <= 1999
 
-    4. SUPERLATIVOS ("O mais barato", "O maior"):
-       - NÃO gere filtro de valor para o campo superlativo. Deixe vazio ou filtre apenas a cidade.
-       - Ex: "O mais barato de Caucaia" -> {{ "cidade": "Caucaia" }} (Sem filtro de preço).
+    6. PROIBIDO: NUNCA use operadores como $min, $max, $avg, $orderby. 
+       Se o usuário pedir "o mais barato", NÃO filtre o preço, filtre apenas a cidade/local.
 
     ---------------------------------------------------------
     EXEMPLOS (Few-Shot):
@@ -135,6 +227,9 @@ def extrair_filtros(pergunta, llm):
 
     User: "Prédios novos acima de 500m2"
     AI: {{ "ano_construcao": {{ "$gte": "2020" }}, "tamanho_m2": {{ "$gt": 500 }} }}
+
+    User: "Qual o mais recente de Sobral?"
+    AI: {{ "cidade": "Sobral" }}
 
     Pergunta Atual: {pergunta}
     JSON:
@@ -173,21 +268,19 @@ def extrair_filtros(pergunta, llm):
 def app():
     st.header("🏢 Imobiliária Inteligente", divider=True)
 
-    db, llm_filtro, llm_resposta = carregar_sistema()
+    db, llm_reformulador, llm_filtro, llm_resposta = carregar_sistema()
     
     if not db:
         st.stop()
 
     if "mensagens" not in st.session_state:
-        st.session_state["mensagens"] = [{"usuario": "assistant", "texto": "Olá! Como posso ajudar você a encontrar o imóvel ideal?"}]
+        st.session_state["mensagens"] = [{"usuario": "assistant", "texto": "Olá! Sou seu corretor virtual. Onde você busca seu imóvel?"}]
 
-    # Renderiza mensagens
     for mensagem in st.session_state["mensagens"]:
         avatar = "🧑‍💻" if mensagem["usuario"] == "user" else "🤖"
         with st.chat_message(mensagem["usuario"], avatar=avatar):
             st.write(mensagem["texto"])
 
-    # Input do Usuário
     mensagem_usuario = st.chat_input("Digite sua pergunta aqui...")
 
     if mensagem_usuario:
@@ -197,59 +290,85 @@ def app():
 
         with st.chat_message("assistant", avatar="🤖"):
             placeholder = st.empty()
-            
-            # --- STATUS VISUAL ---
             status = st.status("Processando...", expanded=True)
             
             try:
-                # PASSO 1: Filtros (Direto da Pergunta Original)
-                status.write("🔍 Identificando critérios...")
+                # --- PASSO 1: MEMÓRIA (Reformulação) ---
+                status.write("🧠 Entendendo contexto...")
+                historico = st.session_state["mensagens"][:-1]
+                pergunta_final = reformular_pergunta(mensagem_usuario, historico, llm_reformulador)
                 
-                
-                filtros = extrair_filtros(mensagem_usuario, llm_filtro)
-                
-                if filtros:
-                    status.write(f"**Filtros:** {filtros}")
-                else:
-                    status.write("**Busca Semântica:** (Sem filtros exatos)")
+                if pergunta_final.lower() != mensagem_usuario.lower():
+                    status.write(f"**Interpretei:** *{pergunta_final}*")
 
-                # PASSO 2: Busca (Chroma)
-                status.write("📂 Consultando banco de dados...")
-                docs = db.similarity_search(
-                    mensagem_usuario, # Usa a pergunta original
-                    k=4, 
-                    filter=filtros if filtros else None
-                )
+                #  --- DECISOR DE ROTA --- 
+                intencao = classificar_intencao(pergunta_final, llm_reformulador)
+                status.write(f"🧭 Rota definida: **{intencao}**")
+
+                contexto_final = ""
                 
-                if not docs:
-                    texto_resposta = "Não encontrei imóveis correspondentes a esses critérios específicos."
-                    status.update(label="Sem resultados", state="error")
+                # === ROTA A: NOVA BUSCA (Vai no ChromaDB) ===
+                if intencao == "NOVA_BUSCA":
+                    status.write("🔍 Consultando banco de dados...")
+                    
+                    filtros = extrair_filtros(pergunta_final, llm_filtro)
+                    if filtros:
+                        status.write(f"**Filtros:** {filtros}")
+                    
+                    docs = db.similarity_search(pergunta_final, k=4, filter=filtros if filtros else None)
+                    
+                    if not docs:
+                        texto_resposta = "Não encontrei imóveis com esses critérios."
+                        status.update(label="Sem resultados", state="error")
+                        placeholder.write(texto_resposta)
+                        st.session_state["mensagens"].append({"usuario": "assistant", "texto": texto_resposta})
+                        st.stop()
+                    
+                    contexto_final = "\n\n".join([d.page_content for d in docs])
+
+                # === ROTA B: ANÁLISE DE CONTEXTO (Lê o Histórico) ===
                 else:
-                    # PASSO 3: Resposta (Geração)
-                    status.write("✍️ Escrevendo resposta...")
-                    contexto = "\n\n".join([d.page_content for d in docs])
+                    status.write("📖 Lendo conversa anterior...")
                     
-                    template_resp = """
-                    Você é um corretor imobiliário. Responda à pergunta do usuário usando os imóveis abaixo.
+                    # Recupera a última fala da IA (onde estão os dados dos prédios)
+                    ultima_resposta_ia = ""
+                    for msg in reversed(st.session_state["mensagens"]):
+                        if msg["usuario"] == "assistant":
+                            ultima_resposta_ia = msg["texto"]
+                            break
                     
-                    Imóveis Encontrados:
-                    {context}
-                    
-                    Pergunta do Usuário: {pergunta_original}
-                    
-                    Responda de forma natural:
-                    """
-                    
-                    chain_input = {
-                        "context": contexto, 
-                        "pergunta_original": mensagem_usuario
-                    }
-                    
-                    texto_resposta = llm_resposta.invoke(template_resp.format(**chain_input))
-                    status.update(label="Concluído!", state="complete", expanded=False)
+                    if not ultima_resposta_ia:
+                        contexto_final = "Não há contexto anterior disponível."
+                    else:
+                        contexto_final = f"Informações apresentadas anteriormente pelo Assistente:\n{ultima_resposta_ia}"
+
+                # === GERAÇÃO DA RESPOSTA FINAL (Comum às duas rotas) ===
+                status.write("✍️ Escrevendo resposta...")
+                
+                template_resp = """
+                Você é um corretor imobiliário prestativo.
+                
+                CONTEXTO (Informações do Banco ou da Conversa Anterior):
+                {context}
+
+                PERGUNTA DO USUÁRIO (Reformulada): {pergunta_reformulada}
+                
+                INSTRUÇÃO:
+                - Se o contexto tiver imóveis, responda a pergunta usando esses dados.
+                - Se o usuário pediu "o mais barato" ou "o mais recente", analise os dados no contexto e conclua.
+                - Seja direto e natural.
+                """
+                
+                chain_input = {
+                    "context": contexto_final, 
+                    "pergunta_reformulada": pergunta_final
+                }
+                
+                texto_resposta = llm_resposta.invoke(template_resp.format(**chain_input))
+                status.update(label="Concluído!", state="complete", expanded=False)
 
             except Exception as e:
-                texto_resposta = f"Ocorreu um erro técnico: {str(e)}"
+                texto_resposta = f"Erro técnico: {str(e)}"
                 status.update(label="Erro", state="error")
 
             placeholder.write(texto_resposta)
